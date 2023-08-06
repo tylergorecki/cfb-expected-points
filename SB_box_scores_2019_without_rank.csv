@@ -1,0 +1,889 @@
+Rk,Wk,Date,Time,Day,Winner,Pts_winner,X8,Loser,Pts_loser,Notes
+1,1,2019-08-24,NA,Sat,Florida,24,N,Miami (FL),20,Camping World Stadium - Orlando Florida
+2,1,2019-08-24,NA,Sat,Hawaii,45,NA,Arizona,38,Aloha Stadium - Honolulu Hawaii
+3,2,2019-08-29,NA,Thu,Alabama-Birmingham,24,NA,Alabama State,19,Legion Field - Birmingham Alabama
+4,2,2019-08-29,NA,Thu,Arizona State,30,NA,Kent State,7,Sun Devil Stadium - Tempe Arizona
+5,2,2019-08-29,NA,Thu,Bowling Green State,46,NA,Morgan State,3,Doyt Perry Stadium - Bowling Green Ohio
+6,2,2019-08-29,NA,Thu,Buffalo,38,NA,Robert Morris,10,UB Stadium - Buffalo New York
+7,2,2019-08-29,NA,Thu,Central Arkansas,35,@,Western Kentucky,28,Houchens Industries-L.T. Smith Stadium - Bowling Green Kentucky
+8,2,2019-08-29,NA,Thu,Central Florida,62,NA,Florida A&M,0,Spectrum Stadium - Orlando Florida
+9,2,2019-08-29,NA,Thu,Central Michigan,38,NA,Albany,21,Kelly/Shorts Stadium - Mount Pleasant Michigan
+10,2,2019-08-29,NA,Thu,Charlotte,49,NA,Gardner-Webb,28,Jerry Richardson Stadium - Charlotte North Carolina
+11,2,2019-08-29,NA,Thu,Cincinnati,24,NA,UCLA,14,Nippert Stadium - Cincinnati Ohio
+12,2,2019-08-29,NA,Thu,Clemson,52,NA,Georgia Tech,14,Clemson Memorial Stadium - Clemson South Carolina
+13,2,2019-08-29,NA,Thu,Connecticut,24,NA,Wagner,21,Pratt & Whitney Stadium at Rentschler Field - East Hartford Connecticut
+14,2,2019-08-29,NA,Thu,Minnesota,28,NA,South Dakota State,21,TCF Bank Stadium - Minneapolis Minnesota
+15,2,2019-08-29,NA,Thu,San Jose State,35,NA,Northern Colorado,18,CEFCU Stadium - San Jose California
+16,2,2019-08-29,NA,Thu,Texas A&M,41,NA,Texas State,7,Kyle Field - College Station Texas
+17,2,2019-08-29,NA,Thu,Tulane,42,NA,Florida International,14,Yulman Stadium - New Orleans Louisiana
+18,2,2019-08-29,NA,Thu,Utah,30,@,Brigham Young,12,LaVell Edwards Stadium - Provo Utah
+19,2,2019-08-30,NA,Fri,Army,14,NA,Rice,7,Michie Stadium - West Point New York
+20,2,2019-08-30,NA,Fri,Colorado,52,N,Colorado State,31,Empower Field at Mile High - Denver Colorado
+21,2,2019-08-30,NA,Fri,Michigan State,28,NA,Tulsa,7,Spartan Stadium - East Lansing Michigan
+22,2,2019-08-30,NA,Fri,Nevada,34,NA,Purdue,31,MacKay Stadium - Reno Nevada
+23,2,2019-08-30,NA,Fri,Oklahoma State,52,@,Oregon State,36,Reser Stadium - Corvallis Oregon
+24,2,2019-08-30,NA,Fri,Rutgers,48,NA,Massachusetts,21,SHI Stadium - Piscataway New Jersey
+25,2,2019-08-30,NA,Fri,Wake Forest,38,NA,Utah State,35,BB&T Field - Winston-Salem North Carolina
+26,2,2019-08-30,NA,Fri,Wisconsin,49,@,South Florida,0,Raymond James Stadium - Tampa Florida
+27,2,2019-08-31,NA,Sat,Air Force,48,NA,Colgate,7,Falcon Stadium - Colorado Springs Colorado
+28,2,2019-08-31,NA,Sat,Alabama,42,N,Duke,3,Mercedes-Benz Stadium - Atlanta Georgia
+29,2,2019-08-31,NA,Sat,Appalachian State,42,NA,East Tennessee State,7,Kidd Brewer Stadium - Boone North Carolina
+30,2,2019-08-31,NA,Sat,Arkansas,20,NA,Portland State,13,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+31,2,2019-08-31,NA,Sat,Auburn,27,N,Oregon,21,AT&T Stadium - Arlington Texas
+32,2,2019-08-31,NA,Sat,Baylor,56,NA,Stephen F. Austin,17,McLane Stadium - Waco Texas
+33,2,2019-08-31,NA,Sat,Boise State,36,@,Florida State,31,Doak Campbell Stadium - Tallahassee Florida
+34,2,2019-08-31,NA,Sat,Boston College,35,NA,Virginia Tech,28,Alumni Stadium - Chestnut Hill Massachusetts
+35,2,2019-08-31,NA,Sat,California,27,NA,California-Davis,13,California Memorial Stadium - Berkeley California
+36,2,2019-08-31,NA,Sat,Eastern Michigan,30,@,Coastal Carolina,23,Brooks Stadium - Conway South Carolina
+37,2,2019-08-31,NA,Sat,Georgia,30,@,Vanderbilt,6,Vanderbilt Stadium - Nashville Tennessee
+38,2,2019-08-31,NA,Sat,Georgia State,38,@,Tennessee,30,Neyland Stadium - Knoxville Tennessee
+39,2,2019-08-31,NA,Sat,Illinois,42,NA,Akron,3,Memorial Stadium - Champaign Illinois
+40,2,2019-08-31,NA,Sat,Indiana,34,N,Ball State,24,Lucas Oil Stadium - Indianapolis Indiana
+41,2,2019-08-31,NA,Sat,Iowa,38,NA,Miami (OH),14,Kinnick Stadium - Iowa City Iowa
+42,2,2019-08-31,NA,Sat,Iowa State,29,NA,Northern Iowa,26,Jack Trice Stadium - Ames Iowa
+43,2,2019-08-31,NA,Sat,Kansas,24,NA,Indiana State,17,David Booth Kansas Memorial Stadium - Lawrence Kansas
+44,2,2019-08-31,NA,Sat,Kansas State,49,NA,Nicholls State,14,Bill Snyder Family Stadium - Manhattan Kansas
+45,2,2019-08-31,NA,Sat,Kentucky,38,NA,Toledo,24,Kroger Field - Lexington Kentucky
+46,2,2019-08-31,NA,Sat,Louisiana State,55,NA,Georgia Southern,3,Tiger Stadium - Baton Rouge Louisiana
+47,2,2019-08-31,NA,Sat,Louisiana-Monroe,31,NA,Grambling State,9,Malone Stadium - Monroe Louisiana
+48,2,2019-08-31,NA,Sat,Marshall,56,NA,Virginia Military Institute,17,Joan C. Edwards Stadium - Huntington West Virginia
+49,2,2019-08-31,NA,Sat,Maryland,79,NA,Howard,0,Capital One Field at Maryland Stadium - College Park Maryland
+50,2,2019-08-31,NA,Sat,Memphis,15,NA,Mississippi,10,Liberty Bowl Memorial Stadium - Memphis Tennessee
+51,2,2019-08-31,NA,Sat,Michigan,40,NA,Middle Tennessee State,21,Michigan Stadium - Ann Arbor Michigan
+52,2,2019-08-31,NA,Sat,Mississippi State,38,N,Louisiana,28,Mercedes-Benz Superdome - New Orleans Louisiana
+53,2,2019-08-31,NA,Sat,Navy,45,NA,Holy Cross,7,Navy-Marine Corps Memorial Stadium - Annapolis Maryland
+54,2,2019-08-31,NA,Sat,Nebraska,35,NA,South Alabama,21,Memorial Stadium - Lincoln Nebraska
+55,2,2019-08-31,NA,Sat,Nevada-Las Vegas,56,NA,Southern Utah,23,Sam Boyd Stadium - Las Vegas Nevada
+56,2,2019-08-31,NA,Sat,New Mexico,39,NA,Sam Houston State,31,Dreamstyle Stadium - Albuquerque New Mexico
+57,2,2019-08-31,NA,Sat,North Carolina,24,N,South Carolina,20,Bank of America Stadium - Charlotte North Carolina
+58,2,2019-08-31,NA,Sat,North Carolina State,34,NA,East Carolina,6,Carter-Finley Stadium - Raleigh North Carolina
+59,2,2019-08-31,NA,Sat,North Texas,51,NA,Abilene Christian,31,Apogee Stadium - Denton Texas
+60,2,2019-08-31,NA,Sat,Northern Illinois,24,NA,Illinois State,10,Huskie Stadium - DeKalb Illinois
+61,2,2019-08-31,NA,Sat,Ohio,41,NA,Rhode Island,20,Peden Stadium - Athens Ohio
+62,2,2019-08-31,NA,Sat,Ohio State,45,NA,Florida Atlantic,21,Ohio Stadium - Columbus Ohio
+63,2,2019-08-31,NA,Sat,Old Dominion,24,NA,Norfolk State,21,Foreman Field at S.B. Ballard Stadium - Norfolk Virginia
+64,2,2019-08-31,NA,Sat,Penn State,79,NA,Idaho,7,Beaver Stadium - University Park Pennsylvania
+65,2,2019-08-31,NA,Sat,San Diego State,6,NA,Weber State,0,SDCCU Stadium - San Diego California
+66,2,2019-08-31,NA,Sat,Southern California,31,NA,Fresno State,23,Los Angeles Memorial Coliseum - Los Angeles California
+67,2,2019-08-31,NA,Sat,Southern Methodist,37,@,Arkansas State,30,Centennial Bank Stadium - Jonesboro Arkansas
+68,2,2019-08-31,NA,Sat,Southern Mississippi,38,NA,Alcorn State,10,M. M. Roberts Stadium - Hattiesburg Mississippi
+69,2,2019-08-31,NA,Sat,Stanford,17,NA,Northwestern,7,Stanford Stadium - Stanford California
+70,2,2019-08-31,NA,Sat,Syracuse,24,@,Liberty,0,Williams Stadium - Lynchburg Virginia
+71,2,2019-08-31,NA,Sat,Temple,56,NA,Bucknell,12,Lincoln Financial Field - Philadelphia Pennsylvania
+72,2,2019-08-31,NA,Sat,Texas,45,NA,Louisiana Tech,14,Darrell K Royal-Texas Memorial Stadium - Austin Texas
+73,2,2019-08-31,NA,Sat,Texas Christian,39,NA,Arkansas-Pine Bluff,7,Amon G. Carter Stadium - Fort Worth Texas
+74,2,2019-08-31,NA,Sat,Texas Tech,45,NA,Montana State,10,Jones AT&T Stadium - Lubbock Texas
+75,2,2019-08-31,NA,Sat,Texas-El Paso,36,NA,Houston Baptist,34,Sun Bowl - El Paso Texas
+76,2,2019-08-31,NA,Sat,Texas-San Antonio,35,NA,Incarnate Word,7,Alamodome - San Antonio Texas
+77,2,2019-08-31,NA,Sat,Troy,43,NA,Campbell,14,Veterans Memorial Stadium - Troy Alabama
+78,2,2019-08-31,NA,Sat,Virginia,30,@,Pittsburgh,14,Heinz Field - Pittsburgh Pennsylvania
+79,2,2019-08-31,NA,Sat,Washington,47,NA,Eastern Washington,14,Husky Stadium - Seattle Washington
+80,2,2019-08-31,NA,Sat,Washington State,58,NA,New Mexico State,7,Martin Stadium - Pullman Washington
+81,2,2019-08-31,NA,Sat,West Virginia,20,NA,James Madison,13,Mountaineer Field at Milan Puskar Stadium - Morgantown West Virginia
+82,2,2019-08-31,NA,Sat,Western Michigan,48,NA,Monmouth,13,Waldo Stadium - Kalamazoo Michigan
+83,2,2019-08-31,NA,Sat,Wyoming,37,NA,Missouri,31,Jonah Field War Memorial Stadium - Laramie Wyoming
+84,2,2019-09-01,NA,Sun,Oklahoma,49,NA,Houston,31,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+85,2,2019-09-02,NA,Mon,Notre Dame,35,@,Louisville,17,Cardinal Stadium - Louisville Kentucky
+86,3,2019-09-06,NA,Fri,Arizona State,19,NA,Sacramento State,7,Sun Devil Stadium - Tempe Arizona
+87,3,2019-09-06,NA,Fri,Boise State,14,NA,Marshall,7,Albertsons Stadium - Boise Idaho
+88,3,2019-09-06,NA,Fri,Virginia,52,NA,William & Mary,17,Scott Stadium - Charlottesville Virginia
+89,3,2019-09-06,NA,Fri,Wake Forest,41,@,Rice,21,Rice Stadium - Houston Texas
+90,3,2019-09-07,NA,Sat,Alabama,62,NA,New Mexico State,10,Bryant-Denny Stadium - Tuscaloosa Alabama
+91,3,2019-09-07,NA,Sat,Alabama-Birmingham,31,@,Akron,20,InfoCision Stadium - Akron Ohio
+92,3,2019-09-07,NA,Sat,Appalachian State,56,NA,Charlotte,41,Kidd Brewer Stadium - Boone North Carolina
+93,3,2019-09-07,NA,Sat,Arizona,65,NA,Northern Arizona,41,Arizona Stadium - Tucson Arizona
+94,3,2019-09-07,NA,Sat,Arkansas State,43,@,Nevada-Las Vegas,17,Sam Boyd Stadium - Las Vegas Nevada
+95,3,2019-09-07,NA,Sat,Auburn,24,NA,Tulane,6,Jordan-Hare Stadium - Auburn Alabama
+96,3,2019-09-07,NA,Sat,Ball State,57,NA,Fordham,29,Scheumann Stadium - Muncie Indiana
+97,3,2019-09-07,NA,Sat,Baylor,63,NA,Texas-San Antonio,14,McLane Stadium - Waco Texas
+98,3,2019-09-07,NA,Sat,Boston College,45,NA,Richmond,13,Alumni Stadium - Chestnut Hill Massachusetts
+99,3,2019-09-07,NA,Sat,Brigham Young,29,@,Tennessee,26,Neyland Stadium - Knoxville Tennessee
+100,3,2019-09-07,NA,Sat,California,20,@,Washington,19,Husky Stadium - Seattle Washington
+101,3,2019-09-07,NA,Sat,Central Florida,48,@,Florida Atlantic,14,FAU Football Stadium - Boca Raton Florida
+102,3,2019-09-07,NA,Sat,Clemson,24,NA,Texas A&M,10,Clemson Memorial Stadium - Clemson South Carolina
+103,3,2019-09-07,NA,Sat,Coastal Carolina,12,@,Kansas,7,David Booth Kansas Memorial Stadium - Lawrence Kansas
+104,3,2019-09-07,NA,Sat,Colorado,34,NA,Nebraska,31,Folsom Field - Boulder Colorado
+105,3,2019-09-07,NA,Sat,Colorado State,38,NA,Western Illinois,13,Sonny Lubrick Field at Canvas Stadium - Fort Collins Colorado
+106,3,2019-09-07,NA,Sat,Duke,45,NA,North Carolina A&T,13,Wallace Wade Stadium - Durham North Carolina
+107,3,2019-09-07,NA,Sat,East Carolina,48,NA,Gardner-Webb,9,Dowdy-Ficklen Stadium - Greenville North Carolina
+108,3,2019-09-07,NA,Sat,Florida,45,NA,Tennessee-Martin,0,Ben Hill Griffin Stadium - Gainesville Florida
+109,3,2019-09-07,NA,Sat,Florida State,45,NA,Louisiana-Monroe,44,Doak Campbell Stadium - Tallahassee Florida
+110,3,2019-09-07,NA,Sat,Georgia,63,NA,Murray State,17,Sanford Stadium - Athens Georgia
+111,3,2019-09-07,NA,Sat,Georgia Southern,26,NA,Maine,18,Allen E. Paulson Stadium - Statesboro Georgia
+112,3,2019-09-07,NA,Sat,Georgia State,48,NA,Furman,42,Georgia State Stadium - Atlanta Georgia
+113,3,2019-09-07,NA,Sat,Georgia Tech,14,NA,South Florida,10,Bobby Dodd Stadium - Atlanta Georgia
+114,3,2019-09-07,NA,Sat,Hawaii,31,NA,Oregon State,28,Aloha Stadium - Honolulu Hawaii
+115,3,2019-09-07,NA,Sat,Houston,37,NA,Prairie View A&M,17,TDECU Stadium - Houston Texas
+116,3,2019-09-07,NA,Sat,Illinois,31,@,Connecticut,23,Pratt & Whitney Stadium at Rentschler Field - East Hartford Connecticut
+117,3,2019-09-07,NA,Sat,Indiana,52,NA,Eastern Illinois,0,"Memorial Stadium ""The Rock"" - Bloomington Indiana"
+118,3,2019-09-07,NA,Sat,Iowa,30,NA,Rutgers,0,Kinnick Stadium - Iowa City Iowa
+119,3,2019-09-07,NA,Sat,Kansas State,52,NA,Bowling Green State,0,Bill Snyder Family Stadium - Manhattan Kansas
+120,3,2019-09-07,NA,Sat,Kent State,26,NA,Kennesaw State,23,Dix Stadium - Kent Ohio
+121,3,2019-09-07,NA,Sat,Kentucky,38,NA,Eastern Michigan,17,Kroger Field - Lexington Kentucky
+122,3,2019-09-07,NA,Sat,Louisiana,35,NA,Liberty,14,Cajun Field - Lafayette Louisiana
+123,3,2019-09-07,NA,Sat,Louisiana State,45,@,Texas,38,Darrell K Royal-Texas Memorial Stadium - Austin Texas
+124,3,2019-09-07,NA,Sat,Louisiana Tech,20,NA,Grambling State,14,Joe Aillet Stadium - Ruston Louisiana
+125,3,2019-09-07,NA,Sat,Louisville,42,NA,Eastern Kentucky,0,Cardinal Stadium - Louisville Kentucky
+126,3,2019-09-07,NA,Sat,Maryland,63,NA,Syracuse,20,Capital One Field at Maryland Stadium - College Park Maryland
+127,3,2019-09-07,NA,Sat,Memphis,55,NA,Southern,24,Liberty Bowl Memorial Stadium - Memphis Tennessee
+128,3,2019-09-07,NA,Sat,Miami (OH),48,NA,Tennessee Tech,17,Fred Yager Stadium - Oxford Ohio
+129,3,2019-09-07,NA,Sat,Michigan,24,NA,Army,21,Michigan Stadium - Ann Arbor Michigan
+130,3,2019-09-07,NA,Sat,Michigan State,51,NA,Western Michigan,17,Spartan Stadium - East Lansing Michigan
+131,3,2019-09-07,NA,Sat,Middle Tennessee State,45,NA,Tennessee State,26,"Johnny ""Red"" Floyd Stadium - Murfreesboro Tennessee"
+132,3,2019-09-07,NA,Sat,Minnesota,38,@,Fresno State,35,Bulldog Stadium - Fresno California
+133,3,2019-09-07,NA,Sat,Mississippi,31,NA,Arkansas,17,Vaught-Hemingway Stadium - Oxford Mississippi
+134,3,2019-09-07,NA,Sat,Mississippi State,38,NA,Southern Mississippi,15,Davis Wade Stadium - Starkville Mississippi
+135,3,2019-09-07,NA,Sat,Missouri,38,NA,West Virginia,7,Faurot Field at Memorial Stadium - Columbia Missouri
+136,3,2019-09-07,NA,Sat,North Carolina,28,NA,Miami (FL),25,Kenan Memorial Stadium - Chapel Hill North Carolina
+137,3,2019-09-07,NA,Sat,North Carolina State,41,NA,Western Carolina,0,Carter-Finley Stadium - Raleigh North Carolina
+138,3,2019-09-07,NA,Sat,Ohio State,42,NA,Cincinnati,0,Ohio Stadium - Columbus Ohio
+139,3,2019-09-07,NA,Sat,Oklahoma,70,NA,South Dakota,14,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+140,3,2019-09-07,NA,Sat,Oklahoma State,56,NA,McNeese State,14,Boone Pickens Stadium - Stillwater Oklahoma
+141,3,2019-09-07,NA,Sat,Oregon,77,NA,Nevada,6,Autzen Stadium - Eugene Oregon
+142,3,2019-09-07,NA,Sat,Penn State,45,NA,Buffalo,13,Beaver Stadium - University Park Pennsylvania
+143,3,2019-09-07,NA,Sat,Pittsburgh,20,NA,Ohio,10,Heinz Field - Pittsburgh Pennsylvania
+144,3,2019-09-07,NA,Sat,Purdue,42,NA,Vanderbilt,24,Ross-Ade Stadium - West Lafayette Indiana
+145,3,2019-09-07,NA,Sat,San Diego State,23,@,UCLA,14,Rose Bowl - Pasadena California
+146,3,2019-09-07,NA,Sat,South Alabama,37,NA,Jackson State,14,Ladd-Peebles Stadium - Mobile Alabama
+147,3,2019-09-07,NA,Sat,South Carolina,72,NA,Charleston Southern,10,Williams-Brice Stadium - Columbia South Carolina
+148,3,2019-09-07,NA,Sat,Southern California,45,NA,Stanford,20,Los Angeles Memorial Coliseum - Los Angeles California
+149,3,2019-09-07,NA,Sat,Southern Illinois,45,@,Massachusetts,20,Warren McGuirk Alumni Stadium - Amherst Massachusetts
+150,3,2019-09-07,NA,Sat,Southern Methodist,49,NA,North Texas,27,Gerald J. Ford Stadium - Dallas Texas
+151,3,2019-09-07,NA,Sat,Texas Tech,38,NA,Texas-El Paso,3,Jones AT&T Stadium - Lubbock Texas
+152,3,2019-09-07,NA,Sat,Tulsa,34,@,San Jose State,16,CEFCU Stadium - San Jose California
+153,3,2019-09-07,NA,Sat,Utah,35,NA,Northern Illinois,17,Rice-Eccles Stadium - Salt Lake City Utah
+154,3,2019-09-07,NA,Sat,Utah State,62,NA,Stony Brook,7,Merlin Olsen Field at Maverik Stadium - Logan Utah
+155,3,2019-09-07,NA,Sat,Virginia Tech,31,NA,Old Dominion,17,Lane Stadium - Blacksburg Virginia
+156,3,2019-09-07,NA,Sat,Washington State,59,NA,Northern Colorado,17,Martin Stadium - Pullman Washington
+157,3,2019-09-07,NA,Sat,Western Kentucky,20,@,Florida International,14,Riccardo Silva Stadium - Miami Florida
+158,3,2019-09-07,NA,Sat,Wisconsin,61,NA,Central Michigan,0,Camp Randall Stadium - Madison Wisconsin
+159,3,2019-09-07,NA,Sat,Wyoming,23,@,Texas State,14,Bobcat Stadium - San Marcos Texas
+160,4,2019-09-13,NA,Fri,Kansas,48,@,Boston College,24,Alumni Stadium - Chestnut Hill Massachusetts
+161,4,2019-09-13,NA,Fri,Wake Forest,24,NA,North Carolina,18,BB&T Field - Winston-Salem North Carolina
+162,4,2019-09-13,NA,Fri,Washington State,31,N,Houston,24,NRG Stadium - Houston Texas
+163,4,2019-09-14,NA,Sat,Air Force,30,@,Colorado,23,Folsom Field - Boulder Colorado
+164,4,2019-09-14,NA,Sat,Alabama,47,@,South Carolina,23,Williams-Brice Stadium - Columbia South Carolina
+165,4,2019-09-14,NA,Sat,Arizona,28,NA,Texas Tech,14,Arizona Stadium - Tucson Arizona
+166,4,2019-09-14,NA,Sat,Arizona State,10,@,Michigan State,7,Spartan Stadium - East Lansing Michigan
+167,4,2019-09-14,NA,Sat,Arkansas,55,NA,Colorado State,34,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+168,4,2019-09-14,NA,Sat,Army,31,@,Texas-San Antonio,13,Alamodome - San Antonio Texas
+169,4,2019-09-14,NA,Sat,Auburn,55,NA,Kent State,16,Jordan-Hare Stadium - Auburn Alabama
+170,4,2019-09-14,NA,Sat,Boise State,45,NA,Portland State,10,Albertsons Stadium - Boise Idaho
+171,4,2019-09-14,NA,Sat,Brigham Young,30,NA,Southern California,27,LaVell Edwards Stadium - Provo Utah
+172,4,2019-09-14,NA,Sat,California,23,NA,North Texas,17,California Memorial Stadium - Berkeley California
+173,4,2019-09-14,NA,Sat,Central Florida,45,NA,Stanford,27,Spectrum Stadium - Orlando Florida
+174,4,2019-09-14,NA,Sat,Central Michigan,45,NA,Akron,24,Kelly/Shorts Stadium - Mount Pleasant Michigan
+175,4,2019-09-14,NA,Sat,Charlotte,52,NA,Massachusetts,17,Jerry Richardson Stadium - Charlotte North Carolina
+176,4,2019-09-14,NA,Sat,Cincinnati,35,NA,Miami (OH),13,Nippert Stadium - Cincinnati Ohio
+177,4,2019-09-14,NA,Sat,Citadel,27,@,Georgia Tech,24,Bobby Dodd Stadium - Atlanta Georgia
+178,4,2019-09-14,NA,Sat,Clemson,41,@,Syracuse,6,Carrier Dome - Syracuse New York
+179,4,2019-09-14,NA,Sat,Coastal Carolina,46,NA,Norfolk State,7,Brooks Stadium - Conway South Carolina
+180,4,2019-09-14,NA,Sat,Duke,41,@,Middle Tennessee State,18,"Johnny ""Red"" Floyd Stadium - Murfreesboro Tennessee"
+181,4,2019-09-14,NA,Sat,Eastern Michigan,34,@,Illinois,31,Memorial Stadium - Champaign Illinois
+182,4,2019-09-14,NA,Sat,Florida,29,@,Kentucky,21,Kroger Field - Lexington Kentucky
+183,4,2019-09-14,NA,Sat,Florida Atlantic,41,@,Ball State,31,Scheumann Stadium - Muncie Indiana
+184,4,2019-09-14,NA,Sat,Florida International,30,NA,New Hampshire,17,Riccardo Silva Stadium - Miami Florida
+185,4,2019-09-14,NA,Sat,Georgia,55,NA,Arkansas State,0,Sanford Stadium - Athens Georgia
+186,4,2019-09-14,NA,Sat,Iowa,18,@,Iowa State,17,Jack Trice Stadium - Ames Iowa
+187,4,2019-09-14,NA,Sat,Kansas State,31,@,Mississippi State,24,Davis Wade Stadium - Starkville Mississippi
+188,4,2019-09-14,NA,Sat,Liberty,35,NA,Buffalo,17,Williams Stadium - Lynchburg Virginia
+189,4,2019-09-14,NA,Sat,Louisiana,77,NA,Texas Southern,6,Cajun Field - Lafayette Louisiana
+190,4,2019-09-14,NA,Sat,Louisiana State,65,NA,Northwestern State,14,Tiger Stadium - Baton Rouge Louisiana
+191,4,2019-09-14,NA,Sat,Louisiana Tech,35,@,Bowling Green State,7,Doyt Perry Stadium - Bowling Green Ohio
+192,4,2019-09-14,NA,Sat,Louisville,38,N,Western Kentucky,21,Nissan Stadium - Nashville Tennessee
+193,4,2019-09-14,NA,Sat,Marshall,33,NA,Ohio,31,Joan C. Edwards Stadium - Huntington West Virginia
+194,4,2019-09-14,NA,Sat,Memphis,42,@,South Alabama,6,Ladd-Peebles Stadium - Mobile Alabama
+195,4,2019-09-14,NA,Sat,Miami (FL),63,NA,Bethune-Cookman,0,Hard Rock Stadium - Miami Gardens Florida
+196,4,2019-09-14,NA,Sat,Minnesota,35,NA,Georgia Southern,32,TCF Bank Stadium - Minneapolis Minnesota
+197,4,2019-09-14,NA,Sat,Mississippi,40,NA,Southeastern Louisiana,29,Vaught-Hemingway Stadium - Oxford Mississippi
+198,4,2019-09-14,NA,Sat,Missouri,50,NA,Southeast Missouri State,0,Memorial Stadium/Faurot Field - Columbia Missouri
+199,4,2019-09-14,NA,Sat,Navy,42,NA,East Carolina,10,Navy-Marine Corps Memorial Stadium - Annapolis Maryland
+200,4,2019-09-14,NA,Sat,Nebraska,44,NA,Northern Illinois,8,Memorial Stadium - Lincoln Nebraska
+201,4,2019-09-14,NA,Sat,Nevada,19,NA,Weber State,13,MacKay Stadium - Reno Nevada
+202,4,2019-09-14,NA,Sat,Northwestern,30,NA,Nevada-Las Vegas,14,Ryan Field - Evanston Illinois
+203,4,2019-09-14,NA,Sat,Notre Dame,66,NA,New Mexico,14,Notre Dame Stadium - South Bend Indiana
+204,4,2019-09-14,NA,Sat,Ohio State,51,@,Indiana,10,"Memorial Stadium ""The Rock"" - Bloomington Indiana"
+205,4,2019-09-14,NA,Sat,Oklahoma,48,@,UCLA,14,Rose Bowl - Pasadena California
+206,4,2019-09-14,NA,Sat,Oklahoma State,40,@,Tulsa,21,Skelly Field at H.A. Chapman Stadium - Tulsa Oklahoma
+207,4,2019-09-14,NA,Sat,Oregon,35,NA,Montana,3,Autzen Stadium - Eugene Oregon
+208,4,2019-09-14,NA,Sat,Oregon State,45,NA,Cal Poly,7,Reser Stadium - Corvallis Oregon
+209,4,2019-09-14,NA,Sat,Penn State,17,NA,Pittsburgh,10,Beaver Stadium - University Park Pennsylvania
+210,4,2019-09-14,NA,Sat,San Diego State,31,@,New Mexico State,10,Aggie Memorial Stadium - Las Cruces New Mexico
+211,4,2019-09-14,NA,Sat,South Florida,55,NA,South Carolina State,16,Raymond James Stadium - Tampa Florida
+212,4,2019-09-14,NA,Sat,Southern Methodist,47,NA,Texas State,17,Gerald J. Ford Stadium - Dallas Texas
+213,4,2019-09-14,NA,Sat,Southern Mississippi,47,@,Troy,42,Veterans Memorial Stadium - Troy Alabama
+214,4,2019-09-14,NA,Sat,Temple,20,NA,Maryland,17,Lincoln Financial Field - Philadelphia Pennsylvania
+215,4,2019-09-14,NA,Sat,Tennessee,45,NA,Chattanooga,0,Neyland Stadium - Knoxville Tennessee
+216,4,2019-09-14,NA,Sat,Texas,48,N,Rice,13,NRG Stadium - Houston Texas
+217,4,2019-09-14,NA,Sat,Texas A&M,62,NA,Lamar,3,Kyle Field - College Station Texas
+218,4,2019-09-14,NA,Sat,Texas Christian,34,@,Purdue,13,Ross-Ade Stadium - West Lafayette Indiana
+219,4,2019-09-14,NA,Sat,Toledo,45,NA,Murray State,0,Glass Bowl - Toledo Ohio
+220,4,2019-09-14,NA,Sat,Tulane,58,NA,Missouri State,6,Yulman Stadium - New Orleans Louisiana
+221,4,2019-09-14,NA,Sat,Utah,31,NA,Idaho State,0,Rice-Eccles Stadium - Salt Lake City Utah
+222,4,2019-09-14,NA,Sat,Virginia,31,NA,Florida State,24,Scott Stadium - Charlottesville Virginia
+223,4,2019-09-14,NA,Sat,Virginia Tech,24,NA,Furman,17,Lane Stadium - Blacksburg Virginia
+224,4,2019-09-14,NA,Sat,Washington,52,NA,Hawaii,20,Husky Stadium - Seattle Washington
+225,4,2019-09-14,NA,Sat,West Virginia,44,NA,North Carolina State,27,Mountaineer Field at Milan Puskar Stadium - Morgantown West Virginia
+226,4,2019-09-14,NA,Sat,Western Michigan,57,NA,Georgia State,10,Waldo Stadium - Kalamazoo Michigan
+227,4,2019-09-14,NA,Sat,Wyoming,21,NA,Idaho,16,Jonah Field War Memorial Stadium - Laramie Wyoming
+228,5,2019-09-19,NA,Thu,Tulane,38,NA,Houston,31,Yulman Stadium - New Orleans Louisiana
+229,5,2019-09-20,NA,Fri,Boise State,30,NA,Air Force,19,Albertsons Stadium - Boise Idaho
+230,5,2019-09-20,NA,Fri,Louisiana Tech,43,NA,Florida International,31,Joe Aillet Stadium - Ruston Louisiana
+231,5,2019-09-20,NA,Fri,Southern California,30,NA,Utah,23,Los Angeles Memorial Coliseum - Los Angeles California
+232,5,2019-09-21,NA,Sat,Alabama,49,NA,Southern Mississippi,7,Bryant-Denny Stadium - Tuscaloosa Alabama
+233,5,2019-09-21,NA,Sat,Alabama-Birmingham,35,NA,South Alabama,3,Legion Field - Birmingham Alabama
+234,5,2019-09-21,NA,Sat,Appalachian State,34,@,North Carolina,31,Kenan Memorial Stadium - Chapel Hill North Carolina
+235,5,2019-09-21,NA,Sat,Arkansas State,41,NA,Southern Illinois,28,Centennial Bank Stadium - Jonesboro Arkansas
+236,5,2019-09-21,NA,Sat,Army,52,NA,Morgan State,21,Michie Stadium - West Point New York
+237,5,2019-09-21,NA,Sat,Auburn,28,@,Texas A&M,20,Kyle Field - College Station Texas
+238,5,2019-09-21,NA,Sat,Baylor,21,@,Rice,13,Rice Stadium - Houston Texas
+239,5,2019-09-21,NA,Sat,Boston College,30,@,Rutgers,16,SHI Stadium - Piscataway New Jersey
+240,5,2019-09-21,NA,Sat,Buffalo,38,NA,Temple,22,UB Stadium - Buffalo New York
+241,5,2019-09-21,NA,Sat,California,28,@,Mississippi,20,Vaught-Hemingway Stadium - Oxford Mississippi
+242,5,2019-09-21,NA,Sat,Clemson,52,NA,Charlotte,10,Clemson Memorial Stadium - Clemson South Carolina
+243,5,2019-09-21,NA,Sat,Coastal Carolina,62,@,Massachusetts,28,Warren McGuirk Alumni Stadium - Amherst Massachusetts
+244,5,2019-09-21,NA,Sat,Colorado,34,@,Arizona State,31,Sun Devil Stadium - Tempe Arizona
+245,5,2019-09-21,NA,Sat,East Carolina,19,NA,William & Mary,7,Dowdy-Ficklen Stadium - Greenville North Carolina
+246,5,2019-09-21,NA,Sat,Eastern Michigan,34,NA,Central Connecticut State,29,Rynearson Stadium - Ypsilanti Michigan
+247,5,2019-09-21,NA,Sat,Florida,34,NA,Tennessee,3,Ben Hill Griffin Stadium - Gainesville Florida
+248,5,2019-09-21,NA,Sat,Florida Atlantic,42,NA,Wagner,7,FAU Football Stadium - Boca Raton Florida
+249,5,2019-09-21,NA,Sat,Florida State,35,NA,Louisville,24,Doak Campbell Stadium - Tallahassee Florida
+250,5,2019-09-21,NA,Sat,Fresno State,34,NA,Sacramento State,20,Bulldog Stadium - Fresno California
+251,5,2019-09-21,NA,Sat,Georgia,23,NA,Notre Dame,17,Sanford Stadium - Athens Georgia
+252,5,2019-09-21,NA,Sat,Hawaii,35,NA,Central Arkansas,16,Aloha Stadium - Honolulu Hawaii
+253,5,2019-09-21,NA,Sat,Indiana,38,NA,Connecticut,3,"Memorial Stadium ""The Rock"" - Bloomington Indiana"
+254,5,2019-09-21,NA,Sat,Iowa State,72,NA,Louisiana-Monroe,20,Jack Trice Stadium - Ames Iowa
+255,5,2019-09-21,NA,Sat,Kent State,62,NA,Bowling Green State,20,Dix Stadium - Kent Ohio
+256,5,2019-09-21,NA,Sat,Liberty,62,NA,Hampton,27,Williams Stadium - Lynchburg Virginia
+257,5,2019-09-21,NA,Sat,Louisiana,45,@,Ohio,25,Peden Stadium - Athens Ohio
+258,5,2019-09-21,NA,Sat,Louisiana State,66,@,Vanderbilt,38,Vanderbilt Stadium - Nashville Tennessee
+259,5,2019-09-21,NA,Sat,Miami (FL),17,NA,Central Michigan,12,Hard Rock Stadium - Miami Gardens Florida
+260,5,2019-09-21,NA,Sat,Michigan State,31,@,Northwestern,10,Ryan Field - Evanston Illinois
+261,5,2019-09-21,NA,Sat,Mississippi State,28,NA,Kentucky,13,Davis Wade Stadium - Starkville Mississippi
+262,5,2019-09-21,NA,Sat,Missouri,34,NA,South Carolina,14,Memorial Stadium/Faurot Field - Columbia Missouri
+263,5,2019-09-21,NA,Sat,Nebraska,42,@,Illinois,38,Memorial Stadium - Champaign Illinois
+264,5,2019-09-21,NA,Sat,Nevada,37,@,Texas-El Paso,21,Sun Bowl - El Paso Texas
+265,5,2019-09-21,NA,Sat,New Mexico,55,NA,New Mexico State,52,Dreamstyle Stadium - Albuquerque New Mexico
+266,5,2019-09-21,NA,Sat,North Carolina State,34,NA,Ball State,23,Carter-Finley Stadium - Raleigh North Carolina
+267,5,2019-09-21,NA,Sat,North Texas,45,NA,Texas-San Antonio,3,Apogee Stadium - Denton Texas
+268,5,2019-09-21,NA,Sat,Ohio State,76,NA,Miami (OH),5,Ohio Stadium - Columbus Ohio
+269,5,2019-09-21,NA,Sat,Oregon,21,@,Stanford,6,Stanford Stadium - Stanford California
+270,5,2019-09-21,NA,Sat,Pittsburgh,35,NA,Central Florida,34,Heinz Field - Pittsburgh Pennsylvania
+271,5,2019-09-21,NA,Sat,San Jose State,31,@,Arkansas,24,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+272,5,2019-09-21,NA,Sat,Southern Methodist,41,@,Texas Christian,38,Amon G. Carter Stadium - Fort Worth Texas
+273,5,2019-09-21,NA,Sat,Syracuse,52,NA,Western Michigan,33,Carrier Dome - Syracuse New York
+274,5,2019-09-21,NA,Sat,Texas,36,NA,Oklahoma State,30,Darrell K Royal-Texas Memorial Stadium - Austin Texas
+275,5,2019-09-21,NA,Sat,Texas State,37,NA,Georgia State,34,Bobcat Stadium - San Marcos Texas
+276,5,2019-09-21,NA,Sat,Toledo,41,@,Colorado State,35,Sonny Lubrick Field at Canvas Stadium - Fort Collins Colorado
+277,5,2019-09-21,NA,Sat,Troy,35,@,Akron,7,InfoCision Stadium - Akron Ohio
+278,5,2019-09-21,NA,Sat,Tulsa,24,NA,Wyoming,21,Skelly Field at H.A. Chapman Stadium - Tulsa Oklahoma
+279,5,2019-09-21,NA,Sat,UCLA,67,@,Washington State,63,Martin Stadium - Pullman Washington
+280,5,2019-09-21,NA,Sat,Utah State,23,@,San Diego State,17,SDCCU Stadium - San Diego California
+281,5,2019-09-21,NA,Sat,Virginia,28,NA,Old Dominion,17,Scott Stadium - Charlottesville Virginia
+282,5,2019-09-21,NA,Sat,Wake Forest,49,NA,Elon,7,BB&T Field - Winston-Salem North Carolina
+283,5,2019-09-21,NA,Sat,Washington,45,@,Brigham Young,19,LaVell Edwards Stadium - Provo Utah
+284,5,2019-09-21,NA,Sat,West Virginia,29,@,Kansas,24,David Booth Kansas Memorial Stadium - Lawrence Kansas
+285,5,2019-09-21,NA,Sat,Wisconsin,35,NA,Michigan,14,Camp Randall Stadium - Madison Wisconsin
+286,6,2019-09-26,NA,Thu,Memphis,35,NA,Navy,23,Liberty Bowl Memorial Stadium - Memphis Tennessee
+287,6,2019-09-27,NA,Fri,Air Force,41,NA,San Jose State,24,Falcon Stadium - Colorado Springs Colorado
+288,6,2019-09-27,NA,Fri,Arizona State,24,@,California,17,California Memorial Stadium - Berkeley California
+289,6,2019-09-27,NA,Fri,Duke,45,@,Virginia Tech,10,Lane Stadium - Blacksburg Virginia
+290,6,2019-09-27,NA,Fri,Penn State,59,@,Maryland,0,Capital One Field at Maryland Stadium - College Park Maryland
+291,6,2019-09-28,NA,Sat,Alabama,59,NA,Mississippi,31,Bryant-Denny Stadium - Tuscaloosa Alabama
+292,6,2019-09-28,NA,Sat,Appalachian State,56,NA,Coastal Carolina,37,Kidd Brewer Stadium - Boone North Carolina
+293,6,2019-09-28,NA,Sat,Arizona,20,NA,UCLA,17,Arizona Stadium - Tucson Arizona
+294,6,2019-09-28,NA,Sat,Arkansas State,50,@,Troy,43,Veterans Memorial Stadium - Troy Alabama
+295,6,2019-09-28,NA,Sat,Auburn,56,NA,Mississippi State,23,Jordan-Hare Stadium - Auburn Alabama
+296,6,2019-09-28,NA,Sat,Baylor,23,NA,Iowa State,21,McLane Stadium - Waco Texas
+297,6,2019-09-28,NA,Sat,Central Florida,56,NA,Connecticut,21,Spectrum Stadium - Orlando Florida
+298,6,2019-09-28,NA,Sat,Cincinnati,52,@,Marshall,14,Joan C. Edwards Stadium - Huntington West Virginia
+299,6,2019-09-28,NA,Sat,Clemson,21,@,North Carolina,20,Kenan Memorial Stadium - Chapel Hill North Carolina
+300,6,2019-09-28,NA,Sat,East Carolina,24,@,Old Dominion,21,Foreman Field at S.B. Ballard Stadium - Norfolk Virginia
+301,6,2019-09-28,NA,Sat,Florida,38,NA,Towson,0,Ben Hill Griffin Stadium - Gainesville Florida
+302,6,2019-09-28,NA,Sat,Florida Atlantic,45,@,Charlotte,27,Jerry Richardson Stadium - Charlotte North Carolina
+303,6,2019-09-28,NA,Sat,Florida State,31,NA,North Carolina State,13,Doak Campbell Stadium - Tallahassee Florida
+304,6,2019-09-28,NA,Sat,Fresno State,30,@,New Mexico State,17,Aggie Memorial Stadium - Las Cruces New Mexico
+305,6,2019-09-28,NA,Sat,Hawaii,54,@,Nevada,3,MacKay Stadium - Reno Nevada
+306,6,2019-09-28,NA,Sat,Houston,46,@,North Texas,25,Apogee Stadium - Denton Texas
+307,6,2019-09-28,NA,Sat,Iowa,48,NA,Middle Tennessee State,3,Kinnick Stadium - Iowa City Iowa
+308,6,2019-09-28,NA,Sat,Liberty,17,NA,New Mexico,10,Williams Stadium - Lynchburg Virginia
+309,6,2019-09-28,NA,Sat,Louisiana,37,@,Georgia Southern,24,Allen E. Paulson Stadium - Statesboro Georgia
+310,6,2019-09-28,NA,Sat,Louisiana Tech,23,@,Rice,20,Rice Stadium - Houston Texas
+311,6,2019-09-28,NA,Sat,Louisiana-Monroe,30,NA,South Alabama,17,Malone Stadium - Monroe Louisiana
+312,6,2019-09-28,NA,Sat,Massachusetts,37,NA,Akron,29,Warren McGuirk Alumni Stadium - Amherst Massachusetts
+313,6,2019-09-28,NA,Sat,Miami (OH),34,NA,Buffalo,20,Fred Yager Stadium - Oxford Ohio
+314,6,2019-09-28,NA,Sat,Michigan,52,NA,Rutgers,0,Michigan Stadium - Ann Arbor Michigan
+315,6,2019-09-28,NA,Sat,Michigan State,40,NA,Indiana,31,Spartan Stadium - East Lansing Michigan
+316,6,2019-09-28,NA,Sat,Minnesota,38,@,Purdue,31,Ross-Ade Stadium - West Lafayette Indiana
+317,6,2019-09-28,NA,Sat,Notre Dame,35,NA,Virginia,20,Notre Dame Stadium - South Bend Indiana
+318,6,2019-09-28,NA,Sat,Ohio State,48,@,Nebraska,7,Memorial Stadium - Lincoln Nebraska
+319,6,2019-09-28,NA,Sat,Oklahoma,55,NA,Texas Tech,16,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+320,6,2019-09-28,NA,Sat,Oklahoma State,26,NA,Kansas State,13,Boone Pickens Stadium - Stillwater Oklahoma
+321,6,2019-09-28,NA,Sat,Pittsburgh,17,NA,Delaware,14,Heinz Field - Pittsburgh Pennsylvania
+322,6,2019-09-28,NA,Sat,South Carolina,24,NA,Kentucky,7,Williams-Brice Stadium - Columbia South Carolina
+323,6,2019-09-28,NA,Sat,Southern Methodist,48,@,South Florida,21,Raymond James Stadium - Tampa Florida
+324,6,2019-09-28,NA,Sat,Southern Mississippi,31,NA,Texas-El Paso,13,M. M. Roberts Stadium - Hattiesburg Mississippi
+325,6,2019-09-28,NA,Sat,Stanford,31,@,Oregon State,28,Reser Stadium - Corvallis Oregon
+326,6,2019-09-28,NA,Sat,Syracuse,41,NA,Holy Cross,3,Carrier Dome - Syracuse New York
+327,6,2019-09-28,NA,Sat,Temple,24,NA,Georgia Tech,2,Lincoln Financial Field - Philadelphia Pennsylvania
+328,6,2019-09-28,NA,Sat,Texas A&M,31,N,Arkansas,27,AT&T Stadium - Arlington Texas
+329,6,2019-09-28,NA,Sat,Texas Christian,51,NA,Kansas,14,Amon G. Carter Stadium - Fort Worth Texas
+330,6,2019-09-28,NA,Sat,Texas State,24,NA,Nicholls State,3,Bobcat Stadium - San Marcos Texas
+331,6,2019-09-28,NA,Sat,Toledo,28,NA,Brigham Young,21,Glass Bowl - Toledo Ohio
+332,6,2019-09-28,NA,Sat,Utah,38,NA,Washington State,13,Rice-Eccles Stadium - Salt Lake City Utah
+333,6,2019-09-28,NA,Sat,Utah State,34,NA,Colorado State,24,Merlin Olsen Field at Maverik Stadium - Logan Utah
+334,6,2019-09-28,NA,Sat,Vanderbilt,24,NA,Northern Illinois,18,Vanderbilt Stadium - Nashville Tennessee
+335,6,2019-09-28,NA,Sat,Wake Forest,27,@,Boston College,24,Alumni Stadium - Chestnut Hill Massachusetts
+336,6,2019-09-28,NA,Sat,Washington,28,NA,Southern California,14,Husky Stadium - Seattle Washington
+337,6,2019-09-28,NA,Sat,Western Kentucky,20,NA,Alabama-Birmingham,13,Houchens Industries-L.T. Smith Stadium - Bowling Green Kentucky
+338,6,2019-09-28,NA,Sat,Western Michigan,31,NA,Central Michigan,15,Waldo Stadium - Kalamazoo Michigan
+339,6,2019-09-28,NA,Sat,Wisconsin,24,NA,Northwestern,15,Camp Randall Stadium - Madison Wisconsin
+340,6,2019-09-28,NA,Sat,Wyoming,53,NA,Nevada-Las Vegas,17,Jonah Field War Memorial Stadium - Laramie Wyoming
+341,7,2019-10-03,NA,Thu,Georgia Southern,20,@,South Alabama,17,Ladd-Peebles Stadium - Mobile Alabama
+342,7,2019-10-03,NA,Thu,Temple,27,@,East Carolina,17,Dowdy-Ficklen Stadium - Greenville North Carolina
+343,7,2019-10-04,NA,Fri,Cincinnati,27,NA,Central Florida,24,Nippert Stadium - Cincinnati Ohio
+344,7,2019-10-04,NA,Fri,San Jose State,32,NA,New Mexico,21,CEFCU Stadium - San Jose California
+345,7,2019-10-05,NA,Sat,Alabama-Birmingham,35,NA,Rice,20,Legion Field - Birmingham Alabama
+346,7,2019-10-05,NA,Sat,Arizona,35,@,Colorado,30,Folsom Field - Boulder Colorado
+347,7,2019-10-05,NA,Sat,Ball State,27,@,Northern Illinois,20,Huskie Stadium - DeKalb Illinois
+348,7,2019-10-05,NA,Sat,Baylor,31,@,Kansas State,12,Bill Snyder Family Stadium - Manhattan Kansas
+349,7,2019-10-05,NA,Sat,Boise State,38,@,Nevada-Las Vegas,13,Sam Boyd Stadium - Las Vegas Nevada
+350,7,2019-10-05,NA,Sat,Central Michigan,42,NA,Eastern Michigan,16,Kelly/Shorts Stadium - Mount Pleasant Michigan
+351,7,2019-10-05,NA,Sat,Florida,24,NA,Auburn,13,Ben Hill Griffin Stadium - Gainesville Florida
+352,7,2019-10-05,NA,Sat,Florida International,44,NA,Massachusetts,0,Riccardo Silva Stadium - Miami Florida
+353,7,2019-10-05,NA,Sat,Georgia,43,@,Tennessee,14,Neyland Stadium - Knoxville Tennessee
+354,7,2019-10-05,NA,Sat,Georgia State,52,NA,Arkansas State,38,Georgia State Stadium - Atlanta Georgia
+355,7,2019-10-05,NA,Sat,Iowa State,49,NA,Texas Christian,24,Jack Trice Stadium - Ames Iowa
+356,7,2019-10-05,NA,Sat,Liberty,20,@,New Mexico State,13,Aggie Memorial Stadium - Las Cruces New Mexico
+357,7,2019-10-05,NA,Sat,Louisiana State,42,NA,Utah State,6,Tiger Stadium - Baton Rouge Louisiana
+358,7,2019-10-05,NA,Sat,Louisville,41,NA,Boston College,39,Cardinal Stadium - Louisville Kentucky
+359,7,2019-10-05,NA,Sat,Maryland,48,@,Rutgers,7,SHI Stadium - Piscataway New Jersey
+360,7,2019-10-05,NA,Sat,Memphis,52,@,Louisiana-Monroe,33,Malone Stadium - Monroe Louisiana
+361,7,2019-10-05,NA,Sat,Michigan,10,NA,Iowa,3,Michigan Stadium - Ann Arbor Michigan
+362,7,2019-10-05,NA,Sat,Middle Tennessee State,24,NA,Marshall,13,"Johnny ""Red"" Floyd Stadium - Murfreesboro Tennessee"
+363,7,2019-10-05,NA,Sat,Minnesota,40,NA,Illinois,17,TCF Bank Stadium - Minneapolis Minnesota
+364,7,2019-10-05,NA,Sat,Mississippi,31,NA,Vanderbilt,6,Vaught-Hemingway Stadium - Oxford Mississippi
+365,7,2019-10-05,NA,Sat,Missouri,42,NA,Troy,10,Memorial Stadium/Faurot Field - Columbia Missouri
+366,7,2019-10-05,NA,Sat,Navy,34,NA,Air Force,25,Navy-Marine Corps Memorial Stadium - Annapolis Maryland
+367,7,2019-10-05,NA,Sat,Nebraska,13,NA,Northwestern,10,Memorial Stadium - Lincoln Nebraska
+368,7,2019-10-05,NA,Sat,North Carolina,38,@,Georgia Tech,22,Bobby Dodd Stadium - Atlanta Georgia
+369,7,2019-10-05,NA,Sat,Notre Dame,52,NA,Bowling Green State,0,Notre Dame Stadium - South Bend Indiana
+370,7,2019-10-05,NA,Sat,Ohio,21,@,Buffalo,20,UB Stadium - Buffalo New York
+371,7,2019-10-05,NA,Sat,Ohio State,34,NA,Michigan State,10,Ohio Stadium - Columbus Ohio
+372,7,2019-10-05,NA,Sat,Oklahoma,45,@,Kansas,20,David Booth Kansas Memorial Stadium - Lawrence Kansas
+373,7,2019-10-05,NA,Sat,Oregon,17,NA,California,7,Autzen Stadium - Eugene Oregon
+374,7,2019-10-05,NA,Sat,Oregon State,48,@,UCLA,31,Rose Bowl - Pasadena California
+375,7,2019-10-05,NA,Sat,Penn State,35,NA,Purdue,7,Beaver Stadium - University Park Pennsylvania
+376,7,2019-10-05,NA,Sat,Pittsburgh,33,@,Duke,30,Wallace Wade Stadium - Durham North Carolina
+377,7,2019-10-05,NA,Sat,San Diego State,24,@,Colorado State,10,Sonny Lubrick Field at Canvas Stadium - Fort Collins Colorado
+378,7,2019-10-05,NA,Sat,South Florida,48,@,Connecticut,22,Pratt & Whitney Stadium at Rentschler Field - East Hartford Connecticut
+379,7,2019-10-05,NA,Sat,Southern Methodist,43,NA,Tulsa,37,Gerald J. Ford Stadium - Dallas Texas
+380,7,2019-10-05,NA,Sat,Stanford,23,NA,Washington,13,Stanford Stadium - Stanford California
+381,7,2019-10-05,NA,Sat,Texas,42,@,West Virginia,31,Mountaineer Field at Milan Puskar Stadium - Morgantown West Virginia
+382,7,2019-10-05,NA,Sat,Texas Tech,45,NA,Oklahoma State,35,Jones AT&T Stadium - Lubbock Texas
+383,7,2019-10-05,NA,Sat,Texas-San Antonio,26,@,Texas-El Paso,16,Sun Bowl - El Paso Texas
+384,7,2019-10-05,NA,Sat,Toledo,31,NA,Western Michigan,24,Glass Bowl - Toledo Ohio
+385,7,2019-10-05,NA,Sat,Tulane,42,@,Army,33,Michie Stadium - West Point New York
+386,7,2019-10-05,NA,Sat,Virginia Tech,42,@,Miami (FL),35,Hard Rock Stadium - Miami Gardens Florida
+387,7,2019-10-05,NA,Sat,Western Kentucky,20,@,Old Dominion,3,Foreman Field at S.B. Ballard Stadium - Norfolk Virginia
+388,7,2019-10-05,NA,Sat,Wisconsin,48,NA,Kent State,0,Camp Randall Stadium - Madison Wisconsin
+389,8,2019-10-09,NA,Wed,Appalachian State,17,@,Louisiana,7,Cajun Field - Lafayette Louisiana
+390,8,2019-10-10,NA,Thu,Louisiana-Monroe,24,@,Texas State,14,Bobcat Stadium - San Marcos Texas
+391,8,2019-10-10,NA,Thu,North Carolina State,16,NA,Syracuse,10,Carter-Finley Stadium - Raleigh North Carolina
+392,8,2019-10-11,NA,Fri,Colorado State,35,@,New Mexico,21,Dreamstyle Stadium - Albuquerque New Mexico
+393,8,2019-10-11,NA,Fri,Miami (FL),17,NA,Virginia,9,Hard Rock Stadium - Miami Gardens Florida
+394,8,2019-10-11,NA,Fri,Oregon,45,NA,Colorado,3,Autzen Stadium - Eugene Oregon
+395,8,2019-10-12,NA,Sat,Air Force,43,NA,Fresno State,24,Falcon Stadium - Colorado Springs Colorado
+396,8,2019-10-12,NA,Sat,Alabama,47,@,Texas A&M,28,Kyle Field - College Station Texas
+397,8,2019-10-12,NA,Sat,Alabama-Birmingham,33,@,Texas-San Antonio,14,Alamodome - San Antonio Texas
+398,8,2019-10-12,NA,Sat,Arizona State,38,NA,Washington State,34,Sun Devil Stadium - Tempe Arizona
+399,8,2019-10-12,NA,Sat,Ball State,29,@,Eastern Michigan,23,Rynearson Stadium - Ypsilanti Michigan
+400,8,2019-10-12,NA,Sat,Baylor,33,NA,Texas Tech,30,McLane Stadium - Waco Texas
+401,8,2019-10-12,NA,Sat,Boise State,59,NA,Hawaii,37,Albertsons Stadium - Boise Idaho
+402,8,2019-10-12,NA,Sat,Bowling Green State,20,NA,Toledo,7,Doyt Perry Stadium - Bowling Green Ohio
+403,8,2019-10-12,NA,Sat,Central Michigan,42,NA,New Mexico State,28,Kelly/Shorts Stadium - Mount Pleasant Michigan
+404,8,2019-10-12,NA,Sat,Cincinnati,38,@,Houston,23,TDECU Stadium - Houston Texas
+405,8,2019-10-12,NA,Sat,Clemson,45,NA,Florida State,14,Clemson Memorial Stadium - Clemson South Carolina
+406,8,2019-10-12,NA,Sat,Duke,41,NA,Georgia Tech,23,Wallace Wade Stadium - Durham North Carolina
+407,8,2019-10-12,NA,Sat,Florida Atlantic,28,NA,Middle Tennessee State,13,FAU Football Stadium - Boca Raton Florida
+408,8,2019-10-12,NA,Sat,Florida International,48,NA,Charlotte,23,Riccardo Silva Stadium - Miami Florida
+409,8,2019-10-12,NA,Sat,Georgia State,31,@,Coastal Carolina,21,Brooks Stadium - Conway South Carolina
+410,8,2019-10-12,NA,Sat,Indiana,35,NA,Rutgers,0,"Memorial Stadium ""The Rock"" - Bloomington Indiana"
+411,8,2019-10-12,NA,Sat,Iowa State,38,@,West Virginia,14,Mountaineer Field at Milan Puskar Stadium - Morgantown West Virginia
+412,8,2019-10-12,NA,Sat,Kent State,26,@,Akron,3,InfoCision Stadium - Akron Ohio
+413,8,2019-10-12,NA,Sat,Kentucky,24,NA,Arkansas,20,Kroger Field - Lexington Kentucky
+414,8,2019-10-12,NA,Sat,Louisiana State,42,NA,Florida,28,Tiger Stadium - Baton Rouge Louisiana
+415,8,2019-10-12,NA,Sat,Louisiana Tech,69,NA,Massachusetts,21,Joe Aillet Stadium - Ruston Louisiana
+416,8,2019-10-12,NA,Sat,Louisville,62,@,Wake Forest,59,BB&T Field - Winston-Salem North Carolina
+417,8,2019-10-12,NA,Sat,Marshall,31,NA,Old Dominion,17,Joan C. Edwards Stadium - Huntington West Virginia
+418,8,2019-10-12,NA,Sat,Michigan,42,@,Illinois,25,Memorial Stadium - Champaign Illinois
+419,8,2019-10-12,NA,Sat,Minnesota,34,NA,Nebraska,7,TCF Bank Stadium - Minneapolis Minnesota
+420,8,2019-10-12,NA,Sat,Missouri,38,NA,Mississippi,27,Memorial Stadium/Faurot Field - Columbia Missouri
+421,8,2019-10-12,NA,Sat,Navy,45,@,Tulsa,17,Skelly Field at H.A. Chapman Stadium - Tulsa Oklahoma
+422,8,2019-10-12,NA,Sat,Nevada,41,NA,San Jose State,38,MacKay Stadium - Reno Nevada
+423,8,2019-10-12,NA,Sat,Nevada-Las Vegas,34,@,Vanderbilt,10,Vanderbilt Stadium - Nashville Tennessee
+424,8,2019-10-12,NA,Sat,Northern Illinois,39,@,Ohio,36,Peden Stadium - Athens Ohio
+425,8,2019-10-12,NA,Sat,Notre Dame,30,NA,Southern California,27,Notre Dame Stadium - South Bend Indiana
+426,8,2019-10-12,NA,Sat,Oklahoma,34,N,Texas,27,Cotton Bowl - Dallas Texas
+427,8,2019-10-12,NA,Sat,Penn State,17,@,Iowa,12,Kinnick Stadium - Iowa City Iowa
+428,8,2019-10-12,NA,Sat,Purdue,40,NA,Maryland,14,Ross-Ade Stadium - West Lafayette Indiana
+429,8,2019-10-12,NA,Sat,San Diego State,26,NA,Wyoming,22,SDCCU Stadium - San Diego California
+430,8,2019-10-12,NA,Sat,South Carolina,20,@,Georgia,17,Sanford Stadium - Athens Georgia
+431,8,2019-10-12,NA,Sat,South Florida,27,NA,Brigham Young,23,Raymond James Stadium - Tampa Florida
+432,8,2019-10-12,NA,Sat,Southern Mississippi,45,NA,North Texas,27,M. M. Roberts Stadium - Hattiesburg Mississippi
+433,8,2019-10-12,NA,Sat,Temple,30,NA,Memphis,28,Lincoln Financial Field - Philadelphia Pennsylvania
+434,8,2019-10-12,NA,Sat,Tennessee,20,NA,Mississippi State,10,Neyland Stadium - Knoxville Tennessee
+435,8,2019-10-12,NA,Sat,Tulane,49,NA,Connecticut,7,Yulman Stadium - New Orleans Louisiana
+436,8,2019-10-12,NA,Sat,Utah,52,@,Oregon State,7,Reser Stadium - Corvallis Oregon
+437,8,2019-10-12,NA,Sat,Virginia Tech,34,NA,Rhode Island,17,Lane Stadium - Blacksburg Virginia
+438,8,2019-10-12,NA,Sat,Washington,51,@,Arizona,27,Arizona Stadium - Tucson Arizona
+439,8,2019-10-12,NA,Sat,Western Kentucky,17,NA,Army,8,Houchens Industries-L.T. Smith Stadium - Bowling Green Kentucky
+440,8,2019-10-12,NA,Sat,Western Michigan,38,NA,Miami (OH),16,Waldo Stadium - Kalamazoo Michigan
+441,8,2019-10-12,NA,Sat,Wisconsin,38,NA,Michigan State,0,Camp Randall Stadium - Madison Wisconsin
+442,9,2019-10-16,NA,Wed,Troy,37,NA,South Alabama,13,Veterans Memorial Stadium - Troy Alabama
+443,9,2019-10-17,NA,Thu,Louisiana,37,@,Arkansas State,20,Centennial Bank Stadium - Jonesboro Arkansas
+444,9,2019-10-17,NA,Thu,UCLA,34,@,Stanford,16,Stanford Stadium - Stanford California
+445,9,2019-10-18,NA,Fri,Fresno State,56,NA,Nevada-Las Vegas,27,Bulldog Stadium - Fresno California
+446,9,2019-10-18,NA,Fri,Marshall,36,@,Florida Atlantic,31,FAU Football Stadium - Boca Raton Florida
+447,9,2019-10-18,NA,Fri,Ohio State,52,@,Northwestern,3,Ryan Field - Evanston Illinois
+448,9,2019-10-18,NA,Fri,Pittsburgh,27,@,Syracuse,20,Carrier Dome - Syracuse New York
+449,9,2019-10-19,NA,Sat,Air Force,56,@,Hawaii,26,Aloha Stadium - Honolulu Hawaii
+450,9,2019-10-19,NA,Sat,Alabama,35,NA,Tennessee,13,Bryant-Denny Stadium - Tuscaloosa Alabama
+451,9,2019-10-19,NA,Sat,Alabama-Birmingham,38,NA,Old Dominion,14,Legion Field - Birmingham Alabama
+452,9,2019-10-19,NA,Sat,Appalachian State,52,NA,Louisiana-Monroe,7,Kidd Brewer Stadium - Boone North Carolina
+453,9,2019-10-19,NA,Sat,Auburn,51,@,Arkansas,10,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+454,9,2019-10-19,NA,Sat,Ball State,52,NA,Toledo,14,Scheumann Stadium - Muncie Indiana
+455,9,2019-10-19,NA,Sat,Baylor,45,@,Oklahoma State,27,Boone Pickens Stadium - Stillwater Oklahoma
+456,9,2019-10-19,NA,Sat,Boston College,45,NA,North Carolina State,24,Alumni Stadium - Chestnut Hill Massachusetts
+457,9,2019-10-19,NA,Sat,Brigham Young,28,NA,Boise State,25,LaVell Edwards Stadium - Provo Utah
+458,9,2019-10-19,NA,Sat,Buffalo,21,@,Akron,0,InfoCision Stadium - Akron Ohio
+459,9,2019-10-19,NA,Sat,Central Florida,41,NA,East Carolina,28,Spectrum Stadium - Orlando Florida
+460,9,2019-10-19,NA,Sat,Central Michigan,38,@,Bowling Green State,20,Doyt Perry Stadium - Bowling Green Ohio
+461,9,2019-10-19,NA,Sat,Cincinnati,24,NA,Tulsa,13,Nippert Stadium - Cincinnati Ohio
+462,9,2019-10-19,NA,Sat,Clemson,45,@,Louisville,10,Cardinal Stadium - Louisville Kentucky
+463,9,2019-10-19,NA,Sat,Eastern Michigan,34,NA,Western Michigan,27,Rynearson Stadium - Ypsilanti Michigan
+464,9,2019-10-19,NA,Sat,Florida,38,@,South Carolina,27,Williams-Brice Stadium - Columbia South Carolina
+465,9,2019-10-19,NA,Sat,Florida International,32,NA,Texas-El Paso,17,Riccardo Silva Stadium - Miami Florida
+466,9,2019-10-19,NA,Sat,Georgia,21,NA,Kentucky,0,Sanford Stadium - Athens Georgia
+467,9,2019-10-19,NA,Sat,Georgia Southern,30,NA,Coastal Carolina,27,Allen E. Paulson Stadium - Statesboro Georgia
+468,9,2019-10-19,NA,Sat,Georgia State,28,NA,Army,21,Georgia State Stadium - Atlanta Georgia
+469,9,2019-10-19,NA,Sat,Georgia Tech,28,@,Miami (FL),21,Hard Rock Stadium - Miami Gardens Florida
+470,9,2019-10-19,NA,Sat,Houston,24,@,Connecticut,17,Pratt & Whitney Stadium at Rentschler Field - East Hartford Connecticut
+471,9,2019-10-19,NA,Sat,Illinois,24,NA,Wisconsin,23,Memorial Stadium - Champaign Illinois
+472,9,2019-10-19,NA,Sat,Indiana,34,@,Maryland,28,Capital One Field at Maryland Stadium - College Park Maryland
+473,9,2019-10-19,NA,Sat,Iowa,26,NA,Purdue,20,Kinnick Stadium - Iowa City Iowa
+474,9,2019-10-19,NA,Sat,Iowa State,34,@,Texas Tech,24,Jones AT&T Stadium - Lubbock Texas
+475,9,2019-10-19,NA,Sat,Kansas State,24,NA,Texas Christian,17,Bill Snyder Family Stadium - Manhattan Kansas
+476,9,2019-10-19,NA,Sat,Liberty,59,NA,Maine,44,Williams Stadium - Lynchburg Virginia
+477,9,2019-10-19,NA,Sat,Louisiana State,36,@,Mississippi State,13,Davis Wade Stadium - Starkville Mississippi
+478,9,2019-10-19,NA,Sat,Louisiana Tech,45,NA,Southern Mississippi,30,Joe Aillet Stadium - Ruston Louisiana
+479,9,2019-10-19,NA,Sat,Memphis,47,NA,Tulane,17,Liberty Bowl Memorial Stadium - Memphis Tennessee
+480,9,2019-10-19,NA,Sat,Miami (OH),27,NA,Northern Illinois,24,Fred Yager Stadium - Oxford Ohio
+481,9,2019-10-19,NA,Sat,Minnesota,42,@,Rutgers,7,SHI Stadium - Piscataway New Jersey
+482,9,2019-10-19,NA,Sat,Navy,35,NA,South Florida,3,Navy-Marine Corps Memorial Stadium - Annapolis Maryland
+483,9,2019-10-19,NA,Sat,North Texas,33,NA,Middle Tennessee State,30,Apogee Stadium - Denton Texas
+484,9,2019-10-19,NA,Sat,Ohio,45,NA,Kent State,38,Peden Stadium - Athens Ohio
+485,9,2019-10-19,NA,Sat,Oklahoma,52,NA,West Virginia,14,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+486,9,2019-10-19,NA,Sat,Oregon,35,@,Washington,31,Husky Stadium - Seattle Washington
+487,9,2019-10-19,NA,Sat,Oregon State,21,@,California,17,California Memorial Stadium - Berkeley California
+488,9,2019-10-19,NA,Sat,Penn State,28,NA,Michigan,21,Beaver Stadium - University Park Pennsylvania
+489,9,2019-10-19,NA,Sat,San Diego State,27,@,San Jose State,17,CEFCU Stadium - San Jose California
+490,9,2019-10-19,NA,Sat,Southern California,41,NA,Arizona,14,Los Angeles Memorial Coliseum - Los Angeles California
+491,9,2019-10-19,NA,Sat,Southern Methodist,45,NA,Temple,21,Gerald J. Ford Stadium - Dallas Texas
+492,9,2019-10-19,NA,Sat,Texas,50,NA,Kansas,48,Darrell K Royal-Texas Memorial Stadium - Austin Texas
+493,9,2019-10-19,NA,Sat,Texas A&M,24,@,Mississippi,17,Vaught-Hemingway Stadium - Oxford Mississippi
+494,9,2019-10-19,NA,Sat,Texas-San Antonio,31,NA,Rice,27,Alamodome - San Antonio Texas
+495,9,2019-10-19,NA,Sat,Utah,21,NA,Arizona State,3,Rice-Eccles Stadium - Salt Lake City Utah
+496,9,2019-10-19,NA,Sat,Utah State,36,NA,Nevada,10,Merlin Olsen Field at Maverik Stadium - Logan Utah
+497,9,2019-10-19,NA,Sat,Vanderbilt,21,NA,Missouri,14,Vanderbilt Stadium - Nashville Tennessee
+498,9,2019-10-19,NA,Sat,Virginia,48,NA,Duke,14,Scott Stadium - Charlottesville Virginia
+499,9,2019-10-19,NA,Sat,Virginia Tech,43,NA,North Carolina,41,Lane Stadium - Blacksburg Virginia
+500,9,2019-10-19,NA,Sat,Wake Forest,22,NA,Florida State,20,BB&T Field - Winston-Salem North Carolina
+501,9,2019-10-19,NA,Sat,Washington State,41,NA,Colorado,10,Martin Stadium - Pullman Washington
+502,9,2019-10-19,NA,Sat,Western Kentucky,30,NA,Charlotte,14,Houchens Industries-L.T. Smith Stadium - Bowling Green Kentucky
+503,9,2019-10-19,NA,Sat,Wyoming,23,NA,New Mexico,10,Jonah Field War Memorial Stadium - Laramie Wyoming
+504,10,2019-10-24,NA,Thu,Southern Methodist,34,@,Houston,31,TDECU Stadium - Houston Texas
+505,10,2019-10-25,NA,Fri,Southern California,35,@,Colorado,31,Folsom Field - Boulder Colorado
+506,10,2019-10-26,NA,Sat,Air Force,31,NA,Utah State,7,Falcon Stadium - Colorado Springs Colorado
+507,10,2019-10-26,NA,Sat,Alabama,48,NA,Arkansas,7,Bryant-Denny Stadium - Tuscaloosa Alabama
+508,10,2019-10-26,NA,Sat,Appalachian State,30,@,South Alabama,3,Ladd-Peebles Stadium - Mobile Alabama
+509,10,2019-10-26,NA,Sat,Arkansas State,38,NA,Texas State,14,Centennial Bank Stadium - Jonesboro Arkansas
+510,10,2019-10-26,NA,Sat,Buffalo,43,NA,Central Michigan,20,UB Stadium - Buffalo New York
+511,10,2019-10-26,NA,Sat,Central Florida,63,@,Temple,21,Lincoln Financial Field - Philadelphia Pennsylvania
+512,10,2019-10-26,NA,Sat,Charlotte,39,NA,North Texas,38,Jerry Richardson Stadium - Charlotte North Carolina
+513,10,2019-10-26,NA,Sat,Clemson,59,NA,Boston College,7,Clemson Memorial Stadium - Clemson South Carolina
+514,10,2019-10-26,NA,Sat,Colorado State,41,@,Fresno State,31,Bulldog Stadium - Fresno California
+515,10,2019-10-26,NA,Sat,Connecticut,56,@,Massachusetts,35,Warren McGuirk Alumni Stadium - Amherst Massachusetts
+516,10,2019-10-26,NA,Sat,Florida Atlantic,41,@,Old Dominion,3,Foreman Field at S.B. Ballard Stadium - Norfolk Virginia
+517,10,2019-10-26,NA,Sat,Florida State,35,NA,Syracuse,17,Doak Campbell Stadium - Tallahassee Florida
+518,10,2019-10-26,NA,Sat,Georgia Southern,41,NA,New Mexico State,7,Allen E. Paulson Stadium - Statesboro Georgia
+519,10,2019-10-26,NA,Sat,Georgia State,52,NA,Troy,33,Georgia State Stadium - Atlanta Georgia
+520,10,2019-10-26,NA,Sat,Hawaii,45,@,New Mexico,31,Dreamstyle Stadium - Albuquerque New Mexico
+521,10,2019-10-26,NA,Sat,Illinois,24,@,Purdue,6,Ross-Ade Stadium - West Lafayette Indiana
+522,10,2019-10-26,NA,Sat,Indiana,38,@,Nebraska,31,Memorial Stadium - Lincoln Nebraska
+523,10,2019-10-26,NA,Sat,Iowa,20,@,Northwestern,0,Ryan Field - Evanston Illinois
+524,10,2019-10-26,NA,Sat,Kansas,37,NA,Texas Tech,34,David Booth Kansas Memorial Stadium - Lawrence Kansas
+525,10,2019-10-26,NA,Sat,Kansas State,48,NA,Oklahoma,41,Bill Snyder Family Stadium - Manhattan Kansas
+526,10,2019-10-26,NA,Sat,Kentucky,29,NA,Missouri,7,Kroger Field - Lexington Kentucky
+527,10,2019-10-26,NA,Sat,Louisiana State,23,NA,Auburn,20,Tiger Stadium - Baton Rouge Louisiana
+528,10,2019-10-26,NA,Sat,Louisiana Tech,42,@,Texas-El Paso,21,Sun Bowl - El Paso Texas
+529,10,2019-10-26,NA,Sat,Louisville,28,NA,Virginia,21,Cardinal Stadium - Louisville Kentucky
+530,10,2019-10-26,NA,Sat,Marshall,26,NA,Western Kentucky,23,Joan C. Edwards Stadium - Huntington West Virginia
+531,10,2019-10-26,NA,Sat,Memphis,42,@,Tulsa,41,Skelly Field at H.A. Chapman Stadium - Tulsa Oklahoma
+532,10,2019-10-26,NA,Sat,Miami (FL),16,@,Pittsburgh,12,Heinz Field - Pittsburgh Pennsylvania
+533,10,2019-10-26,NA,Sat,Miami (OH),23,@,Kent State,16,Dix Stadium - Kent Ohio
+534,10,2019-10-26,NA,Sat,Michigan,45,NA,Notre Dame,14,Michigan Stadium - Ann Arbor Michigan
+535,10,2019-10-26,NA,Sat,Middle Tennessee State,50,NA,Florida International,17,"Johnny ""Red"" Floyd Stadium - Murfreesboro Tennessee"
+536,10,2019-10-26,NA,Sat,Minnesota,52,NA,Maryland,10,TCF Bank Stadium - Minneapolis Minnesota
+537,10,2019-10-26,NA,Sat,Navy,41,NA,Tulane,38,Navy-Marine Corps Memorial Stadium - Annapolis Maryland
+538,10,2019-10-26,NA,Sat,North Carolina,20,NA,Duke,17,Kenan Memorial Stadium - Chapel Hill North Carolina
+539,10,2019-10-26,NA,Sat,Northern Illinois,49,NA,Akron,0,Huskie Stadium - DeKalb Illinois
+540,10,2019-10-26,NA,Sat,Ohio,34,@,Ball State,21,Scheumann Stadium - Muncie Indiana
+541,10,2019-10-26,NA,Sat,Ohio State,38,NA,Wisconsin,7,Ohio Stadium - Columbus Ohio
+542,10,2019-10-26,NA,Sat,Oklahoma State,34,@,Iowa State,27,Jack Trice Stadium - Ames Iowa
+543,10,2019-10-26,NA,Sat,Oregon,37,NA,Washington State,35,Autzen Stadium - Eugene Oregon
+544,10,2019-10-26,NA,Sat,Penn State,28,@,Michigan State,7,Spartan Stadium - East Lansing Michigan
+545,10,2019-10-26,NA,Sat,Rutgers,44,NA,Liberty,34,SHI Stadium - Piscataway New Jersey
+546,10,2019-10-26,NA,Sat,San Diego State,20,@,Nevada-Las Vegas,17,Sam Boyd Stadium - Las Vegas Nevada
+547,10,2019-10-26,NA,Sat,San Jose State,34,@,Army,29,Michie Stadium - West Point New York
+548,10,2019-10-26,NA,Sat,South Florida,45,@,East Carolina,20,Dowdy-Ficklen Stadium - Greenville North Carolina
+549,10,2019-10-26,NA,Sat,Southern Mississippi,20,@,Rice,6,Rice Stadium - Houston Texas
+550,10,2019-10-26,NA,Sat,Stanford,41,NA,Arizona,31,Stanford Stadium - Stanford California
+551,10,2019-10-26,NA,Sat,Tennessee,41,NA,South Carolina,21,Neyland Stadium - Knoxville Tennessee
+552,10,2019-10-26,NA,Sat,Texas A&M,49,NA,Mississippi State,30,Kyle Field - College Station Texas
+553,10,2019-10-26,NA,Sat,Texas Christian,37,NA,Texas,27,Amon G. Carter Stadium - Fort Worth Texas
+554,10,2019-10-26,NA,Sat,Toledo,37,NA,Eastern Michigan,34,Glass Bowl - Toledo Ohio
+555,10,2019-10-26,NA,Sat,UCLA,42,NA,Arizona State,32,Rose Bowl - Pasadena California
+556,10,2019-10-26,NA,Sat,Utah,35,NA,California,0,Rice-Eccles Stadium - Salt Lake City Utah
+557,10,2019-10-26,NA,Sat,Western Michigan,49,NA,Bowling Green State,10,Waldo Stadium - Kalamazoo Michigan
+558,10,2019-10-26,NA,Sat,Wyoming,31,NA,Nevada,3,Jonah Field War Memorial Stadium - Laramie Wyoming
+559,11,2019-10-31,NA,Thu,Baylor,17,NA,West Virginia,14,McLane Stadium - Waco Texas
+560,11,2019-10-31,NA,Thu,Georgia Southern,24,@,Appalachian State,21,Kidd Brewer Stadium - Boone North Carolina
+561,11,2019-11-01,NA,Fri,Navy,56,@,Connecticut,10,Pratt & Whitney Stadium at Rentschler Field - East Hartford Connecticut
+562,11,2019-11-02,NA,Sat,Air Force,17,NA,Army,13,Falcon Stadium - Colorado Springs Colorado
+563,11,2019-11-02,NA,Sat,Arkansas State,48,@,Louisiana-Monroe,41,Malone Stadium - Monroe Louisiana
+564,11,2019-11-02,NA,Sat,Auburn,20,NA,Mississippi,14,Jordan-Hare Stadium - Auburn Alabama
+565,11,2019-11-02,NA,Sat,Boise State,52,@,San Jose State,42,CEFCU Stadium - San Jose California
+566,11,2019-11-02,NA,Sat,Boston College,58,@,Syracuse,27,DOME - Syracuse New York
+567,11,2019-11-02,NA,Sat,Bowling Green State,35,NA,Akron,6,Doyt Perry Stadium - Bowling Green Ohio
+568,11,2019-11-02,NA,Sat,Brigham Young,42,@,Utah State,14,Merlin Olsen Field at Maverik Stadium - Logan Utah
+569,11,2019-11-02,NA,Sat,Buffalo,43,@,Eastern Michigan,14,Rynearson Stadium - Ypsilanti Michigan
+570,11,2019-11-02,NA,Sat,Central Florida,44,NA,Houston,29,Spectrum Stadium - Orlando Florida
+571,11,2019-11-02,NA,Sat,Central Michigan,48,NA,Northern Illinois,10,Kelly/Shorts Stadium - Mount Pleasant Michigan
+572,11,2019-11-02,NA,Sat,Charlotte,34,NA,Middle Tennessee State,20,Jerry Richardson Stadium - Charlotte North Carolina
+573,11,2019-11-02,NA,Sat,Cincinnati,46,@,East Carolina,43,Dowdy-Ficklen Stadium - Greenville North Carolina
+574,11,2019-11-02,NA,Sat,Clemson,59,NA,Wofford,14,Clemson Memorial Stadium - Clemson South Carolina
+575,11,2019-11-02,NA,Sat,Coastal Carolina,36,NA,Troy,35,Brooks Stadium - Conway South Carolina
+576,11,2019-11-02,NA,Sat,Colorado State,37,NA,Nevada-Las Vegas,17,Sonny Lubrick Field at Canvas Stadium - Fort Collins Colorado
+577,11,2019-11-02,NA,Sat,Florida Atlantic,35,@,Western Kentucky,24,Houchens Industries-L.T. Smith Stadium - Bowling Green Kentucky
+578,11,2019-11-02,NA,Sat,Florida International,24,NA,Old Dominion,17,Riccardo Silva Stadium - Miami Florida
+579,11,2019-11-02,NA,Sat,Fresno State,41,@,Hawaii,38,Aloha Stadium - Honolulu Hawaii
+580,11,2019-11-02,NA,Sat,Georgia,24,N,Florida,17,TIAA Bank Field - Jacksonville Florida
+581,11,2019-11-02,NA,Sat,Illinois,38,NA,Rutgers,10,Memorial Stadium - Champaign Illinois
+582,11,2019-11-02,NA,Sat,Indiana,34,NA,Northwestern,3,"Memorial Stadium ""The Rock"" - Bloomington Indiana"
+583,11,2019-11-02,NA,Sat,Kansas State,38,@,Kansas,10,David Booth Kansas Memorial Stadium - Lawrence Kansas
+584,11,2019-11-02,NA,Sat,Liberty,63,@,Massachusetts,21,Warren McGuirk Alumni Stadium - Amherst Massachusetts
+585,11,2019-11-02,NA,Sat,Louisiana,31,NA,Texas State,3,Cajun Field - Lafayette Louisiana
+586,11,2019-11-02,NA,Sat,Marshall,20,@,Rice,7,Rice Stadium - Houston Texas
+587,11,2019-11-02,NA,Sat,Memphis,54,NA,Southern Methodist,48,Liberty Bowl Memorial Stadium - Memphis Tennessee
+588,11,2019-11-02,NA,Sat,Miami (FL),27,@,Florida State,10,Doak Campbell Stadium - Tallahassee Florida
+589,11,2019-11-02,NA,Sat,Michigan,38,@,Maryland,7,Capital One Field at Maryland Stadium - College Park Maryland
+590,11,2019-11-02,NA,Sat,Mississippi State,54,@,Arkansas,24,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+591,11,2019-11-02,NA,Sat,Nevada,21,NA,New Mexico,10,MacKay Stadium - Reno Nevada
+592,11,2019-11-02,NA,Sat,North Texas,52,NA,Texas-El Paso,26,Apogee Stadium - Denton Texas
+593,11,2019-11-02,NA,Sat,Notre Dame,21,NA,Virginia Tech,20,Notre Dame Stadium - South Bend Indiana
+594,11,2019-11-02,NA,Sat,Oklahoma State,34,NA,Texas Christian,27,Boone Pickens Stadium - Stillwater Oklahoma
+595,11,2019-11-02,NA,Sat,Oregon,56,@,Southern California,24,Los Angeles Memorial Coliseum - Los Angeles California
+596,11,2019-11-02,NA,Sat,Oregon State,56,@,Arizona,38,Arizona Stadium - Tucson Arizona
+597,11,2019-11-02,NA,Sat,Pittsburgh,20,@,Georgia Tech,10,Bobby Dodd Stadium - Atlanta Georgia
+598,11,2019-11-02,NA,Sat,Purdue,31,NA,Nebraska,27,Ross-Ade Stadium - West Lafayette Indiana
+599,11,2019-11-02,NA,Sat,South Carolina,24,NA,Vanderbilt,7,Williams-Brice Stadium - Columbia South Carolina
+600,11,2019-11-02,NA,Sat,Tennessee,30,NA,Alabama-Birmingham,7,Neyland Stadium - Knoxville Tennessee
+601,11,2019-11-02,NA,Sat,Texas A&M,45,NA,Texas-San Antonio,14,Kyle Field - College Station Texas
+602,11,2019-11-02,NA,Sat,Tulane,38,NA,Tulsa,26,Yulman Stadium - New Orleans Louisiana
+603,11,2019-11-02,NA,Sat,UCLA,31,NA,Colorado,14,Rose Bowl - Pasadena California
+604,11,2019-11-02,NA,Sat,Utah,33,@,Washington,28,Husky Stadium - Seattle Washington
+605,11,2019-11-02,NA,Sat,Virginia,38,@,North Carolina,31,Kenan Memorial Stadium - Chapel Hill North Carolina
+606,11,2019-11-02,NA,Sat,Wake Forest,44,NA,North Carolina State,10,BB&T Field - Winston-Salem North Carolina
+607,12,2019-11-05,NA,Tue,Toledo,35,NA,Kent State,33,Glass Bowl - Toledo Ohio
+608,12,2019-11-05,NA,Tue,Western Michigan,35,NA,Ball State,31,Waldo Stadium - Kalamazoo Michigan
+609,12,2019-11-06,NA,Wed,Miami (OH),24,@,Ohio,21,Peden Stadium - Athens Ohio
+610,12,2019-11-07,NA,Thu,Louisiana,48,@,Coastal Carolina,7,Brooks Stadium - Conway South Carolina
+611,12,2019-11-07,NA,Thu,Temple,17,@,South Florida,7,Raymond James Stadium - Tampa Florida
+612,12,2019-11-08,NA,Fri,Tulsa,34,NA,Central Florida,31,Skelly Field at H.A. Chapman Stadium - Tulsa Oklahoma
+613,12,2019-11-08,NA,Fri,Washington,19,@,Oregon State,7,Reser Stadium - Corvallis Oregon
+614,12,2019-11-09,NA,Sat,Appalachian State,20,@,South Carolina,15,Williams-Brice Stadium - Columbia South Carolina
+615,12,2019-11-09,NA,Sat,Army,63,NA,Massachusetts,7,Michie Stadium - West Point New York
+616,12,2019-11-09,NA,Sat,Baylor,29,@,Texas Christian,23,Amon G. Carter Stadium - Fort Worth Texas
+617,12,2019-11-09,NA,Sat,Boise State,20,NA,Wyoming,17,Albertsons Stadium - Boise Idaho
+618,12,2019-11-09,NA,Sat,Brigham Young,31,NA,Liberty,24,LaVell Edwards Stadium - Provo Utah
+619,12,2019-11-09,NA,Sat,California,33,NA,Washington State,20,California Memorial Stadium - Berkeley California
+620,12,2019-11-09,NA,Sat,Charlotte,28,@,Texas-El Paso,21,Sun Bowl - El Paso Texas
+621,12,2019-11-09,NA,Sat,Cincinnati,48,NA,Connecticut,3,Nippert Stadium - Cincinnati Ohio
+622,12,2019-11-09,NA,Sat,Clemson,55,@,North Carolina State,10,Carter-Finley Stadium - Raleigh North Carolina
+623,12,2019-11-09,NA,Sat,Colorado,16,NA,Stanford,13,Folsom Field - Boulder Colorado
+624,12,2019-11-09,NA,Sat,Florida,56,NA,Vanderbilt,0,Ben Hill Griffin Stadium - Gainesville Florida
+625,12,2019-11-09,NA,Sat,Florida Atlantic,37,NA,Florida International,7,FAU Football Stadium - Boca Raton Florida
+626,12,2019-11-09,NA,Sat,Florida State,38,@,Boston College,31,Alumni Stadium - Chestnut Hill Massachusetts
+627,12,2019-11-09,NA,Sat,Georgia,27,NA,Missouri,0,Sanford Stadium - Athens Georgia
+628,12,2019-11-09,NA,Sat,Hawaii,42,NA,San Jose State,40,Aloha Stadium - Honolulu Hawaii
+629,12,2019-11-09,NA,Sat,Illinois,37,@,Michigan State,34,Spartan Stadium - East Lansing Michigan
+630,12,2019-11-09,NA,Sat,Louisiana State,46,@,Alabama,41,Bryant-Denny Stadium - Tuscaloosa Alabama
+631,12,2019-11-09,NA,Sat,Louisiana Tech,52,NA,North Texas,17,Joe Aillet Stadium - Ruston Louisiana
+632,12,2019-11-09,NA,Sat,Louisiana-Monroe,45,NA,Georgia State,31,Malone Stadium - Monroe Louisiana
+633,12,2019-11-09,NA,Sat,Miami (FL),52,NA,Louisville,27,Hard Rock Stadium - Miami Gardens Florida
+634,12,2019-11-09,NA,Sat,Minnesota,31,NA,Penn State,26,TCF Bank Stadium - Minneapolis Minnesota
+635,12,2019-11-09,NA,Sat,Mississippi,41,NA,New Mexico State,3,Vaught-Hemingway Stadium - Oxford Mississippi
+636,12,2019-11-09,NA,Sat,Nevada,17,@,San Diego State,13,SDCCU Stadium - San Diego California
+637,12,2019-11-09,NA,Sat,Notre Dame,38,@,Duke,7,Wallace Wade Stadium - Durham North Carolina
+638,12,2019-11-09,NA,Sat,Ohio State,73,NA,Maryland,14,Ohio Stadium - Columbus Ohio
+639,12,2019-11-09,NA,Sat,Oklahoma,42,NA,Iowa State,41,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+640,12,2019-11-09,NA,Sat,Purdue,24,@,Northwestern,22,Ryan Field - Evanston Illinois
+641,12,2019-11-09,NA,Sat,Southern California,31,@,Arizona State,26,Sun Devil Stadium - Tempe Arizona
+642,12,2019-11-09,NA,Sat,Southern Methodist,59,NA,East Carolina,51,Gerald J. Ford Stadium - Dallas Texas
+643,12,2019-11-09,NA,Sat,Southern Mississippi,37,NA,Alabama-Birmingham,2,M. M. Roberts Stadium - Hattiesburg Mississippi
+644,12,2019-11-09,NA,Sat,Tennessee,17,@,Kentucky,13,Kroger Field - Lexington Kentucky
+645,12,2019-11-09,NA,Sat,Texas,27,NA,Kansas State,24,Darrell K Royal-Texas Memorial Stadium - Austin Texas
+646,12,2019-11-09,NA,Sat,Texas State,30,NA,South Alabama,28,Bobcat Stadium - San Marcos Texas
+647,12,2019-11-09,NA,Sat,Texas Tech,38,@,West Virginia,17,Mountaineer Field at Milan Puskar Stadium - Morgantown West Virginia
+648,12,2019-11-09,NA,Sat,Texas-San Antonio,24,@,Old Dominion,23,Foreman Field at S.B. Ballard Stadium - Norfolk Virginia
+649,12,2019-11-09,NA,Sat,Troy,49,NA,Georgia Southern,28,Veterans Memorial Stadium - Troy Alabama
+650,12,2019-11-09,NA,Sat,Utah State,37,@,Fresno State,35,Bulldog Stadium - Fresno California
+651,12,2019-11-09,NA,Sat,Virginia,33,NA,Georgia Tech,28,Scott Stadium - Charlottesville Virginia
+652,12,2019-11-09,NA,Sat,Virginia Tech,36,NA,Wake Forest,17,Lane Stadium - Blacksburg Virginia
+653,12,2019-11-09,NA,Sat,Western Kentucky,45,@,Arkansas,19,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
+654,12,2019-11-09,NA,Sat,Wisconsin,24,NA,Iowa,22,Camp Randall Stadium - Madison Wisconsin
+655,13,2019-11-12,NA,Tue,Eastern Michigan,42,@,Akron,14,InfoCision Stadium - Akron Ohio
+656,13,2019-11-12,NA,Tue,Western Michigan,37,@,Ohio,34,Peden Stadium - Athens Ohio
+657,13,2019-11-13,NA,Wed,Miami (OH),44,NA,Bowling Green State,3,Fred Yager Stadium - Oxford Ohio
+658,13,2019-11-13,NA,Wed,Northern Illinois,31,@,Toledo,28,Glass Bowl - Toledo Ohio
+659,13,2019-11-14,NA,Thu,Kent State,30,NA,Buffalo,27,Dix Stadium - Kent Ohio
+660,13,2019-11-14,NA,Thu,Pittsburgh,34,NA,North Carolina,27,Heinz Field - Pittsburgh Pennsylvania
+661,13,2019-11-15,NA,Fri,Marshall,31,NA,Louisiana Tech,10,Joan C. Edwards Stadium - Huntington West Virginia
+662,13,2019-11-15,NA,Fri,San Diego State,17,NA,Fresno State,7,SDCCU Stadium - San Diego California
+663,13,2019-11-16,NA,Sat,Air Force,38,@,Colorado State,21,Sonny Lubrick Field at Canvas Stadium - Fort Collins Colorado
+664,13,2019-11-16,NA,Sat,Alabama,38,@,Mississippi State,7,Davis Wade Stadium - Starkville Mississippi
+665,13,2019-11-16,NA,Sat,Alabama-Birmingham,37,NA,Texas-El Paso,10,Legion Field - Birmingham Alabama
+666,13,2019-11-16,NA,Sat,Appalachian State,56,@,Georgia State,27,Georgia State Stadium - Atlanta Georgia
+667,13,2019-11-16,NA,Sat,Arkansas State,28,NA,Coastal Carolina,27,Centennial Bank Stadium - Jonesboro Arkansas
+668,13,2019-11-16,NA,Sat,Army,47,NA,Virginia Military Institute,6,Michie Stadium - West Point New York
+669,13,2019-11-16,NA,Sat,Boise State,42,NA,New Mexico,9,Albertsons Stadium - Boise Idaho
+670,13,2019-11-16,NA,Sat,Brigham Young,42,NA,Idaho State,10,LaVell Edwards Stadium - Provo Utah
+671,13,2019-11-16,NA,Sat,Central Michigan,45,@,Ball State,44,Scheumann Stadium - Muncie Indiana
+672,13,2019-11-16,NA,Sat,Cincinnati,20,@,South Florida,17,Raymond James Stadium - Tampa Florida
+673,13,2019-11-16,NA,Sat,Clemson,52,NA,Wake Forest,3,Clemson Memorial Stadium - Clemson South Carolina
+674,13,2019-11-16,NA,Sat,Florida,23,@,Missouri,6,Memorial Stadium/Faurot Field - Columbia Missouri
+675,13,2019-11-16,NA,Sat,Florida State,49,NA,Alabama State,12,Doak Campbell Stadium - Tallahassee Florida
+676,13,2019-11-16,NA,Sat,Georgia,21,@,Auburn,14,Jordan-Hare Stadium - Auburn Alabama
+677,13,2019-11-16,NA,Sat,Georgia Southern,51,NA,Louisiana-Monroe,29,Allen E. Paulson Stadium - Statesboro Georgia
+678,13,2019-11-16,NA,Sat,Hawaii,21,@,Nevada-Las Vegas,7,Sam Boyd Stadium - Las Vegas Nevada
+679,13,2019-11-16,NA,Sat,Iowa,23,NA,Minnesota,19,Kinnick Stadium - Iowa City Iowa
+680,13,2019-11-16,NA,Sat,Iowa State,23,NA,Texas,21,Jack Trice Stadium - Ames Iowa
+681,13,2019-11-16,NA,Sat,Kentucky,38,@,Vanderbilt,14,Vanderbilt Stadium - Nashville Tennessee
+682,13,2019-11-16,NA,Sat,Louisiana,37,@,South Alabama,27,Ladd-Peebles Stadium - Mobile Alabama
+683,13,2019-11-16,NA,Sat,Louisiana State,58,@,Mississippi,37,Vaught-Hemingway Stadium - Oxford Mississippi
+684,13,2019-11-16,NA,Sat,Louisville,34,@,North Carolina State,20,Carter-Finley Stadium - Raleigh North Carolina
+685,13,2019-11-16,NA,Sat,Memphis,45,@,Houston,27,TDECU Stadium - Houston Texas
+686,13,2019-11-16,NA,Sat,Michigan,44,NA,Michigan State,10,Michigan Stadium - Ann Arbor Michigan
+687,13,2019-11-16,NA,Sat,New Mexico State,41,NA,Incarnate Word,28,Aggie Memorial Stadium - Las Cruces New Mexico
+688,13,2019-11-16,NA,Sat,Northwestern,45,NA,Massachusetts,6,Ryan Field - Evanston Illinois
+689,13,2019-11-16,NA,Sat,Notre Dame,52,NA,Navy,20,Notre Dame Stadium - South Bend Indiana
+690,13,2019-11-16,NA,Sat,Ohio State,56,@,Rutgers,21,SHI Stadium - Piscataway New Jersey
+691,13,2019-11-16,NA,Sat,Oklahoma,34,@,Baylor,31,McLane Stadium - Waco Texas
+692,13,2019-11-16,NA,Sat,Oklahoma State,31,NA,Kansas,13,Boone Pickens Stadium - Stillwater Oklahoma
+693,13,2019-11-16,NA,Sat,Oregon,34,NA,Arizona,6,Autzen Stadium - Eugene Oregon
+694,13,2019-11-16,NA,Sat,Oregon State,35,NA,Arizona State,34,Reser Stadium - Corvallis Oregon
+695,13,2019-11-16,NA,Sat,Penn State,34,NA,Indiana,27,Beaver Stadium - University Park Pennsylvania
+696,13,2019-11-16,NA,Sat,Rice,31,@,Middle Tennessee State,28,"Johnny ""Red"" Floyd Stadium - Murfreesboro Tennessee"
+697,13,2019-11-16,NA,Sat,Southern California,41,@,California,17,California Memorial Stadium - Berkeley California
+698,13,2019-11-16,NA,Sat,Southern Mississippi,36,@,Texas-San Antonio,17,Alamodome - San Antonio Texas
+699,13,2019-11-16,NA,Sat,Syracuse,49,@,Duke,6,Wallace Wade Stadium - Durham North Carolina
+700,13,2019-11-16,NA,Sat,Temple,29,NA,Tulane,21,Lincoln Financial Field - Philadelphia Pennsylvania
+701,13,2019-11-16,NA,Sat,Texas A&M,30,NA,South Carolina,6,Kyle Field - College Station Texas
+702,13,2019-11-16,NA,Sat,Texas Christian,33,@,Texas Tech,31,Jones AT&T Stadium - Lubbock Texas
+703,13,2019-11-16,NA,Sat,Troy,63,@,Texas State,27,Bobcat Stadium - San Marcos Texas
+704,13,2019-11-16,NA,Sat,Utah,49,NA,UCLA,3,Rice-Eccles Stadium - Salt Lake City Utah
+705,13,2019-11-16,NA,Sat,Utah State,26,NA,Wyoming,21,Merlin Olsen Field at Maverik Stadium - Logan Utah
+706,13,2019-11-16,NA,Sat,Virginia Tech,45,@,Georgia Tech,0,Bobby Dodd Stadium - Atlanta Georgia
+707,13,2019-11-16,NA,Sat,Washington State,49,NA,Stanford,22,Martin Stadium - Pullman Washington
+708,13,2019-11-16,NA,Sat,West Virginia,24,@,Kansas State,20,Bill Snyder Family Stadium - Manhattan Kansas
+709,13,2019-11-16,NA,Sat,Wisconsin,37,@,Nebraska,21,Memorial Stadium - Lincoln Nebraska
+710,14,2019-11-19,NA,Tue,Eastern Michigan,45,@,Northern Illinois,17,Huskie Stadium - DeKalb Illinois
+711,14,2019-11-19,NA,Tue,Ohio,66,@,Bowling Green State,24,Doyt Perry Stadium - Bowling Green Ohio
+712,14,2019-11-20,NA,Wed,Buffalo,49,NA,Toledo,30,UB Stadium - Buffalo New York
+713,14,2019-11-20,NA,Wed,Miami (OH),20,NA,Akron,17,Fred Yager Stadium - Oxford Ohio
+714,14,2019-11-21,NA,Thu,Georgia Tech,28,NA,North Carolina State,26,Bobby Dodd Stadium - Atlanta Georgia
+715,14,2019-11-22,NA,Fri,Wyoming,17,NA,Colorado State,7,Jonah Field War Memorial Stadium - Laramie Wyoming
+716,14,2019-11-23,NA,Sat,Air Force,44,@,New Mexico,22,Dreamstyle Stadium - Albuquerque New Mexico
+717,14,2019-11-23,NA,Sat,Alabama,66,NA,Western Carolina,3,Bryant-Denny Stadium - Tuscaloosa Alabama
+718,14,2019-11-23,NA,Sat,Alabama-Birmingham,20,NA,Louisiana Tech,14,Legion Field - Birmingham Alabama
+719,14,2019-11-23,NA,Sat,Appalachian State,35,NA,Texas State,13,Kidd Brewer Stadium - Boone North Carolina
+720,14,2019-11-23,NA,Sat,Arizona State,31,NA,Oregon,28,Sun Devil Stadium - Tempe Arizona
+721,14,2019-11-23,NA,Sat,Arkansas State,38,NA,Georgia Southern,33,Centennial Bank Stadium - Jonesboro Arkansas
+722,14,2019-11-23,NA,Sat,Auburn,52,NA,Samford,0,Jordan-Hare Stadium - Auburn Alabama
+723,14,2019-11-23,NA,Sat,Baylor,24,NA,Texas,10,McLane Stadium - Waco Texas
+724,14,2019-11-23,NA,Sat,Boise State,56,@,Utah State,21,Merlin Olsen Field at Maverik Stadium - Logan Utah
+725,14,2019-11-23,NA,Sat,Brigham Young,56,@,Massachusetts,24,Warren McGuirk Alumni Stadium - Amherst Massachusetts
+726,14,2019-11-23,NA,Sat,California,24,@,Stanford,20,Stanford Stadium - Stanford California
+727,14,2019-11-23,NA,Sat,Central Florida,34,@,Tulane,31,Yulman Stadium - New Orleans Louisiana
+728,14,2019-11-23,NA,Sat,Charlotte,24,NA,Marshall,13,Jerry Richardson Stadium - Charlotte North Carolina
+729,14,2019-11-23,NA,Sat,Cincinnati,15,NA,Temple,13,Nippert Stadium - Cincinnati Ohio
+730,14,2019-11-23,NA,Sat,Colorado,20,NA,Washington,14,Folsom Field - Boulder Colorado
+731,14,2019-11-23,NA,Sat,East Carolina,31,@,Connecticut,24,Pratt & Whitney Stadium at Rentschler Field - East Hartford Connecticut
+732,14,2019-11-23,NA,Sat,Florida Atlantic,40,@,Texas-San Antonio,26,Alamodome - San Antonio Texas
+733,14,2019-11-23,NA,Sat,Florida International,30,NA,Miami (FL),24,Riccardo Silva Stadium - Miami Florida
+734,14,2019-11-23,NA,Sat,Georgia,19,NA,Texas A&M,13,Sanford Stadium - Athens Georgia
+735,14,2019-11-23,NA,Sat,Georgia State,28,NA,South Alabama,15,Georgia State Stadium - Atlanta Georgia
+736,14,2019-11-23,NA,Sat,Hawaii,14,NA,San Diego State,11,Aloha Stadium - Honolulu Hawaii
+737,14,2019-11-23,NA,Sat,Houston,24,@,Tulsa,14,Skelly Field at H.A. Chapman Stadium - Tulsa Oklahoma
+738,14,2019-11-23,NA,Sat,Iowa,19,NA,Illinois,10,Kinnick Stadium - Iowa City Iowa
+739,14,2019-11-23,NA,Sat,Iowa State,41,NA,Kansas,31,Jack Trice Stadium - Ames Iowa
+740,14,2019-11-23,NA,Sat,Kansas State,30,@,Texas Tech,27,Jones AT&T Stadium - Lubbock Texas
+741,14,2019-11-23,NA,Sat,Kent State,41,NA,Ball State,38,Dix Stadium - Kent Ohio
+742,14,2019-11-23,NA,Sat,Kentucky,50,NA,Tennessee-Martin,7,Kroger Field - Lexington Kentucky
+743,14,2019-11-23,NA,Sat,Louisiana,53,NA,Troy,3,Cajun Field - Lafayette Louisiana
+744,14,2019-11-23,NA,Sat,Louisiana State,56,NA,Arkansas,20,Tiger Stadium - Baton Rouge Louisiana
+745,14,2019-11-23,NA,Sat,Louisiana-Monroe,45,NA,Coastal Carolina,42,Malone Stadium - Monroe Louisiana
+746,14,2019-11-23,NA,Sat,Louisville,56,NA,Syracuse,34,Cardinal Stadium - Louisville Kentucky
+747,14,2019-11-23,NA,Sat,Memphis,49,@,South Florida,10,Raymond James Stadium - Tampa Florida
+748,14,2019-11-23,NA,Sat,Michigan,39,@,Indiana,14,"Memorial Stadium ""The Rock"" - Bloomington Indiana"
+749,14,2019-11-23,NA,Sat,Michigan State,27,@,Rutgers,0,SHI Stadium - Piscataway New Jersey
+750,14,2019-11-23,NA,Sat,Middle Tennessee State,38,NA,Old Dominion,17,"Johnny ""Red"" Floyd Stadium - Murfreesboro Tennessee"
+751,14,2019-11-23,NA,Sat,Minnesota,38,@,Northwestern,22,Ryan Field - Evanston Illinois
+752,14,2019-11-23,NA,Sat,Mississippi State,45,NA,Abilene Christian,7,Davis Wade Stadium - Starkville Mississippi
+753,14,2019-11-23,NA,Sat,Navy,35,NA,Southern Methodist,28,Navy-Marine Corps Memorial Stadium - Annapolis Maryland
+754,14,2019-11-23,NA,Sat,Nebraska,54,@,Maryland,7,Capital One Field at Maryland Stadium - College Park Maryland
+755,14,2019-11-23,NA,Sat,Nevada,35,@,Fresno State,28,Bulldog Stadium - Fresno California
+756,14,2019-11-23,NA,Sat,Nevada-Las Vegas,38,NA,San Jose State,35,Sam Boyd Stadium - Las Vegas Nevada
+757,14,2019-11-23,NA,Sat,New Mexico State,44,NA,Texas-El Paso,35,Aggie Memorial Stadium - Las Cruces New Mexico
+758,14,2019-11-23,NA,Sat,North Carolina,56,NA,Mercer,7,Kenan Memorial Stadium - Chapel Hill North Carolina
+759,14,2019-11-23,NA,Sat,Notre Dame,40,NA,Boston College,7,Notre Dame Stadium - South Bend Indiana
+760,14,2019-11-23,NA,Sat,Ohio State,28,NA,Penn State,17,Ohio Stadium - Columbus Ohio
+761,14,2019-11-23,NA,Sat,Oklahoma,28,NA,Texas Christian,24,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
+762,14,2019-11-23,NA,Sat,Oklahoma State,20,@,West Virginia,13,Mountaineer Field at Milan Puskar Stadium - Morgantown West Virginia
+763,14,2019-11-23,NA,Sat,Rice,20,NA,North Texas,14,Rice Stadium - Houston Texas
+764,14,2019-11-23,NA,Sat,Southern California,52,NA,UCLA,35,Los Angeles Memorial Coliseum - Los Angeles California
+765,14,2019-11-23,NA,Sat,Tennessee,24,@,Missouri,20,Memorial Stadium/Faurot Field - Columbia Missouri
+766,14,2019-11-23,NA,Sat,Utah,35,@,Arizona,7,Arizona Stadium - Tucson Arizona
+767,14,2019-11-23,NA,Sat,Vanderbilt,38,NA,East Tennessee State,0,Vanderbilt Stadium - Nashville Tennessee
+768,14,2019-11-23,NA,Sat,Virginia,55,NA,Liberty,27,Scott Stadium - Charlottesville Virginia
+769,14,2019-11-23,NA,Sat,Virginia Tech,28,NA,Pittsburgh,0,Lane Stadium - Blacksburg Virginia
+770,14,2019-11-23,NA,Sat,Wake Forest,39,NA,Duke,27,BB&T Field - Winston-Salem North Carolina
+771,14,2019-11-23,NA,Sat,Washington State,54,NA,Oregon State,53,Martin Stadium - Pullman Washington
+772,14,2019-11-23,NA,Sat,Western Kentucky,28,@,Southern Mississippi,10,M. M. Roberts Stadium - Hattiesburg Mississippi
+773,14,2019-11-23,NA,Sat,Wisconsin,45,NA,Purdue,24,Camp Randall Stadium - Madison Wisconsin
+774,15,2019-11-26,NA,Tue,Northern Illinois,17,NA,Western Michigan,14,Huskie Stadium - DeKalb Illinois
+775,15,2019-11-26,NA,Tue,Ohio,52,@,Akron,3,InfoCision Stadium - Akron Ohio
+776,15,2019-11-28,NA,Thu,Mississippi State,21,NA,Mississippi,20,Davis Wade Stadium - Starkville Mississippi
+777,15,2019-11-29,NA,Fri,Appalachian State,48,@,Troy,13,Veterans Memorial Stadium - Troy Alabama
+778,15,2019-11-29,NA,Fri,Ball State,41,NA,Miami (OH),27,Scheumann Stadium - Muncie Indiana
+779,15,2019-11-29,NA,Fri,Boise State,31,@,Colorado State,24,Sonny Lubrick Field at Canvas Stadium - Fort Collins Colorado
+780,15,2019-11-29,NA,Fri,Buffalo,49,NA,Bowling Green State,7,UB Stadium - Buffalo New York
+781,15,2019-11-29,NA,Fri,Central Florida,34,NA,South Florida,7,Spectrum Stadium - Orlando Florida
+782,15,2019-11-29,NA,Fri,Central Michigan,49,NA,Toledo,7,Kelly/Shorts Stadium - Mount Pleasant Michigan
+783,15,2019-11-29,NA,Fri,Iowa,27,@,Nebraska,24,Memorial Stadium - Lincoln Nebraska
+784,15,2019-11-29,NA,Fri,Kent State,34,@,Eastern Michigan,26,Rynearson Stadium - Ypsilanti Michigan
+785,15,2019-11-29,NA,Fri,Memphis,34,NA,Cincinnati,24,Liberty Bowl Memorial Stadium - Memphis Tennessee
+786,15,2019-11-29,NA,Fri,Missouri,24,@,Arkansas,14,War Memorial Stadium - Little Rock Arkansas
+787,15,2019-11-29,NA,Fri,South Alabama,34,NA,Arkansas State,30,Ladd-Peebles Stadium - Mobile Alabama
+788,15,2019-11-29,NA,Fri,Texas,49,NA,Texas Tech,24,Darrell K Royal-Texas Memorial Stadium - Austin Texas
+789,15,2019-11-29,NA,Fri,Virginia,39,NA,Virginia Tech,30,Scott Stadium - Charlottesville Virginia
+790,15,2019-11-29,NA,Fri,Washington,31,NA,Washington State,13,Husky Stadium - Seattle Washington
+791,15,2019-11-29,NA,Fri,West Virginia,20,@,Texas Christian,17,Amon G. Carter Stadium - Fort Worth Texas
+792,15,2019-11-30,NA,Sat,Air Force,20,NA,Wyoming,6,Falcon Stadium - Colorado Springs Colorado
+793,15,2019-11-30,NA,Sat,Alabama-Birmingham,26,@,North Texas,21,Apogee Stadium - Denton Texas
+794,15,2019-11-30,NA,Sat,Arizona State,24,NA,Arizona,14,Sun Devil Stadium - Tempe Arizona
+795,15,2019-11-30,NA,Sat,Auburn,48,NA,Alabama,45,Jordan-Hare Stadium - Auburn Alabama
+796,15,2019-11-30,NA,Sat,Baylor,61,@,Kansas,6,David Booth Kansas Memorial Stadium - Lawrence Kansas
+797,15,2019-11-30,NA,Sat,Boston College,26,@,Pittsburgh,19,Heinz Field - Pittsburgh Pennsylvania
+798,15,2019-11-30,NA,Sat,California,28,@,UCLA,18,Rose Bowl - Pasadena California
+799,15,2019-11-30,NA,Sat,Charlotte,38,@,Old Dominion,22,Foreman Field at S.B. Ballard Stadium - Norfolk Virginia
+800,15,2019-11-30,NA,Sat,Clemson,38,@,South Carolina,3,Williams-Brice Stadium - Columbia South Carolina
+801,15,2019-11-30,NA,Sat,Coastal Carolina,24,NA,Texas State,21,Brooks Stadium - Conway South Carolina
+802,15,2019-11-30,NA,Sat,Duke,27,NA,Miami (FL),17,Wallace Wade Stadium - Durham North Carolina
+803,15,2019-11-30,NA,Sat,Florida,40,NA,Florida State,17,Ben Hill Griffin Stadium - Gainesville Florida
+804,15,2019-11-30,NA,Sat,Florida Atlantic,34,NA,Southern Mississippi,17,FAU Football Stadium - Boca Raton Florida
+805,15,2019-11-30,NA,Sat,Georgia,52,@,Georgia Tech,7,Bobby Dodd Stadium - Atlanta Georgia
+806,15,2019-11-30,NA,Sat,Georgia Southern,38,NA,Georgia State,10,Allen E. Paulson Stadium - Statesboro Georgia
+807,15,2019-11-30,NA,Sat,Hawaii,52,NA,Army,31,Aloha Stadium - Honolulu Hawaii
+808,15,2019-11-30,NA,Sat,Indiana,44,@,Purdue,41,Ross-Ade Stadium - West Lafayette Indiana
+809,15,2019-11-30,NA,Sat,Kansas State,27,NA,Iowa State,17,Bill Snyder Family Stadium - Manhattan Kansas
+810,15,2019-11-30,NA,Sat,Kentucky,45,NA,Louisville,13,Kroger Field - Lexington Kentucky
+811,15,2019-11-30,NA,Sat,Liberty,49,NA,New Mexico State,28,Williams Stadium - Lynchburg Virginia
+812,15,2019-11-30,NA,Sat,Louisiana,31,NA,Louisiana-Monroe,30,Cajun Field - Lafayette Louisiana
+813,15,2019-11-30,NA,Sat,Louisiana State,50,NA,Texas A&M,7,Tiger Stadium - Baton Rouge Louisiana
+814,15,2019-11-30,NA,Sat,Louisiana Tech,41,NA,Texas-San Antonio,27,Joe Aillet Stadium - Ruston Louisiana
+815,15,2019-11-30,NA,Sat,Marshall,30,NA,Florida International,27,Joan C. Edwards Stadium - Huntington West Virginia
+816,15,2019-11-30,NA,Sat,Michigan State,19,NA,Maryland,16,Spartan Stadium - East Lansing Michigan
+817,15,2019-11-30,NA,Sat,Navy,56,@,Houston,41,TDECU Stadium - Houston Texas
+818,15,2019-11-30,NA,Sat,Nevada-Las Vegas,33,@,Nevada,30,MacKay Stadium - Reno Nevada
+819,15,2019-11-30,NA,Sat,North Carolina,41,@,North Carolina State,10,Carter-Finley Stadium - Raleigh North Carolina
+820,15,2019-11-30,NA,Sat,Northwestern,29,@,Illinois,10,Memorial Stadium - Champaign Illinois
+821,15,2019-11-30,NA,Sat,Notre Dame,45,@,Stanford,24,Stanford Stadium - Stanford California
+822,15,2019-11-30,NA,Sat,Ohio State,56,@,Michigan,27,Michigan Stadium - Ann Arbor Michigan
+823,15,2019-11-30,NA,Sat,Oklahoma,34,@,Oklahoma State,16,Boone Pickens Stadium - Stillwater Oklahoma
+824,15,2019-11-30,NA,Sat,Oregon,24,NA,Oregon State,10,Autzen Stadium - Eugene Oregon
+825,15,2019-11-30,NA,Sat,Penn State,27,NA,Rutgers,6,Beaver Stadium - University Park Pennsylvania
+826,15,2019-11-30,NA,Sat,Rice,30,@,Texas-El Paso,16,Sun Bowl - El Paso Texas
+827,15,2019-11-30,NA,Sat,San Diego State,13,NA,Brigham Young,3,SDCCU Stadium - San Diego California
+828,15,2019-11-30,NA,Sat,San Jose State,17,NA,Fresno State,16,CEFCU Stadium - San Jose California
+829,15,2019-11-30,NA,Sat,Southern Methodist,37,NA,Tulane,20,Gerald J. Ford Stadium - Dallas Texas
+830,15,2019-11-30,NA,Sat,Syracuse,39,NA,Wake Forest,30,Carrier Dome - Syracuse New York
+831,15,2019-11-30,NA,Sat,Temple,49,NA,Connecticut,17,Lincoln Financial Field - Philadelphia Pennsylvania
+832,15,2019-11-30,NA,Sat,Tennessee,28,NA,Vanderbilt,10,Neyland Stadium - Knoxville Tennessee
+833,15,2019-11-30,NA,Sat,Tulsa,49,@,East Carolina,24,Dowdy-Ficklen Stadium - Greenville North Carolina
+834,15,2019-11-30,NA,Sat,Utah,45,NA,Colorado,15,Rice-Eccles Stadium - Salt Lake City Utah
+835,15,2019-11-30,NA,Sat,Utah State,38,@,New Mexico,25,Dreamstyle Stadium - Albuquerque New Mexico
+836,15,2019-11-30,NA,Sat,Western Kentucky,31,NA,Middle Tennessee State,26,Houchens Industries-L.T. Smith Stadium - Bowling Green Kentucky
+837,15,2019-11-30,NA,Sat,Wisconsin,38,@,Minnesota,17,TCF Bank Stadium - Minneapolis Minnesota
+838,16,2019-12-06,NA,Fri,Oregon,37,N,Utah,15,Levi's Stadium - Santa Clara California
+839,16,2019-12-07,NA,Sat,Appalachian State,45,NA,Louisiana,38,Kidd Brewer Stadium - Boone North Carolina
+840,16,2019-12-07,NA,Sat,Boise State,31,NA,Hawaii,10,Albertsons Stadium - Boise Idaho
+841,16,2019-12-07,NA,Sat,Clemson,62,N,Virginia,17,Bank of America Stadium - Charlotte North Carolina
+842,16,2019-12-07,NA,Sat,Florida Atlantic,49,NA,Alabama-Birmingham,6,FAU Football Stadium - Boca Raton Florida
+843,16,2019-12-07,NA,Sat,Louisiana State,37,N,Georgia,10,Mercedes-Benz Stadium - Atlanta Georgia
+844,16,2019-12-07,NA,Sat,Memphis,29,NA,Cincinnati,24,Liberty Bowl Memorial Stadium - Memphis Tennessee
+845,16,2019-12-07,NA,Sat,Miami (OH),26,N,Central Michigan,21,Ford Field - Detroit Michigan
+846,16,2019-12-07,NA,Sat,Ohio State,34,N,Wisconsin,21,Lucas Oil Stadium - Indianapolis Indiana
+847,16,2019-12-07,NA,Sat,Oklahoma,30,N,Baylor,23,AT&T Stadium - Arlington Texas
+848,17,2019-12-14,NA,Sat,Navy,31,N,Army,7,Lincoln Financial Field - Philadelphia Pennsylvania
+849,18,2019-12-20,NA,Fri,Buffalo,31,N,Charlotte,9,Bahamas Bowl (Thomas A. Robinson Stadium - Nassau BHS)
+850,18,2019-12-20,NA,Fri,Kent State,51,N,Utah State,41,Frisco Bowl (Toyota Stadium - Frisco Texas)
+851,18,2019-12-21,NA,Sat,Appalachian State,31,N,Alabama-Birmingham,17,New Orleans Bowl (Mercedes-Benz Superdome - New Orleans Louisiana)
+852,18,2019-12-21,NA,Sat,Arkansas State,34,N,Florida International,26,Camellia Bowl (Cramton Bowl - Montgomery Alabama)
+853,18,2019-12-21,NA,Sat,Florida Atlantic,52,N,Southern Methodist,28,Boca Raton Bowl (FAU Football Stadium - Boca Raton Florida)
+854,18,2019-12-21,NA,Sat,Liberty,23,N,Georgia Southern,16,Cure Bowl (Exploria Stadium - Orlando Florida)
+855,18,2019-12-21,NA,Sat,San Diego State,48,N,Central Michigan,11,New Mexico Bowl (Dreamstyle Stadium - Albuquerque New Mexico)
+856,18,2019-12-21,NA,Sat,Washington,38,N,Boise State,7,Las Vegas Bowl (Sam Boyd Stadium - Las Vegas Nevada)
+857,18,2019-12-23,NA,Mon,Central Florida,48,N,Marshall,25,Gasparilla Bowl (Raymond James Stadium - Tampa Florida)
+858,19,2019-12-24,NA,Tue,Hawaii,38,N,Brigham Young,34,Hawaii Bowl (Aloha Stadium - Honolulu Hawaii)
+859,19,2019-12-26,NA,Thu,Louisiana Tech,14,N,Miami (FL),0,Independence Bowl (Independence Stadium - Shreveport Louisiana)
+860,19,2019-12-26,NA,Thu,Pittsburgh,34,N,Eastern Michigan,30,Quick Lane Bowl (Ford Field - Detroit Michigan)
+861,19,2019-12-27,NA,Fri,Air Force,31,N,Washington State,21,Cheez-It Bowl (Chase Field - Phoenix Arizona)
+862,19,2019-12-27,NA,Fri,Iowa,49,N,Southern California,24,Holiday Bowl (SDCCU Stadium - San Diego California)
+863,19,2019-12-27,NA,Fri,Michigan State,27,N,Wake Forest,21,Pinstripe Bowl (Yankee Stadium - New York New York)
+864,19,2019-12-27,NA,Fri,North Carolina,55,N,Temple,13,Military Bowl (Navy-Marine Corps Memorial Stadium - Annapolis Maryland)
+865,19,2019-12-27,NA,Fri,Texas A&M,24,N,Oklahoma State,21,Texas Bowl (NRG Stadium - Houston Texas)
+866,19,2019-12-28,NA,Sat,Clemson,29,N,Ohio State,23,Fiesta Bowl (State Farm Stadium - Glendale Arizona)
+867,19,2019-12-28,NA,Sat,Louisiana State,63,N,Oklahoma,28,Peach Bowl (Mercedes-Benz Stadium - Atlanta Georgia)
+868,19,2019-12-28,NA,Sat,Notre Dame,33,N,Iowa State,9,Camping World Bowl (Camping World Stadium - Orlando Florida)
+869,19,2019-12-28,NA,Sat,Penn State,53,N,Memphis,39,Cotton Bowl (AT&T Stadium - Arlington Texas)
+870,20,2019-12-30,NA,Mon,California,35,N,Illinois,20,Redbox Bowl (Levi's Stadium - Santa Clara California)
+871,20,2019-12-30,NA,Mon,Florida,36,N,Virginia,28,Orange Bowl (Hard Rock Stadium - Miami Gardens Florida)
+872,20,2019-12-30,NA,Mon,Louisville,38,N,Mississippi State,28,Music City Bowl (Nissan Stadium - Nashville Tennessee)
+873,20,2019-12-30,NA,Mon,Western Kentucky,23,N,Western Michigan,20,First Responder Bowl (Gerald J. Ford Stadium - Dallas Texas)
+874,21,2019-12-31,NA,Tue,Arizona State,20,N,Florida State,14,Sun Bowl (Sun Bowl - El Paso Texas)
+875,21,2019-12-31,NA,Tue,Kentucky,37,N,Virginia Tech,30,Belk Bowl (Bank of America Stadium - Charlotte North Carolina)
+876,21,2019-12-31,NA,Tue,Navy,20,N,Kansas State,17,Liberty Bowl (Liberty Bowl Memorial Stadium - Memphis Tennessee)
+877,21,2019-12-31,NA,Tue,Texas,38,N,Utah,10,Alamo Bowl (Alamodome - San Antonio Texas)
+878,21,2019-12-31,NA,Tue,Wyoming,38,N,Georgia State,17,Arizona Bowl (Arizona Stadium - Tucson Arizona)
+879,21,2020-01-01,NA,Wed,Alabama,35,N,Michigan,16,Citrus Bowl (Camping World Stadium - Orlando Florida)
+880,21,2020-01-01,NA,Wed,Georgia,26,N,Baylor,14,Sugar Bowl (Mercedes-Benz Superdome - New Orleans Louisiana)
+881,21,2020-01-01,NA,Wed,Minnesota,31,N,Auburn,24,Outback Bowl (Raymond James Stadium - Tampa Florida)
+882,21,2020-01-01,NA,Wed,Oregon,28,N,Wisconsin,27,Rose Bowl (Rose Bowl - Pasadena California)
+883,21,2020-01-02,NA,Thu,Cincinnati,38,N,Boston College,6,Birmingham Bowl (Legion Field - Birmingham Alabama)
+884,21,2020-01-02,NA,Thu,Tennessee,23,N,Indiana,22,Gator Bowl (TIAA Bank Field - Jacksonville Florida)
+885,21,2020-01-03,NA,Fri,Ohio,30,N,Nevada,21,Famous Idaho Potato Bowl (Albertsons Stadium - Boise Idaho)
+886,21,2020-01-04,NA,Sat,Tulane,30,N,Southern Mississippi,13,Armed Forces Bowl (Amon G. Carter Stadium - Fort Worth Texas)
+887,21,2020-01-06,NA,Mon,Louisiana,27,N,Miami (OH),17,LendingTree Bowl (Ladd-Peebles Stadium - Mobile Alabama)
+888,22,2020-01-13,NA,Mon,Louisiana State,42,N,Clemson,25,College Football Championship (Mercedes-Benz Superdome - New Orleans Louisiana)

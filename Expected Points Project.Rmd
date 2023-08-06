@@ -1,0 +1,853 @@
+---
+title: "EP Model"
+author: "Tyler Gorecki"
+date: '2022-10-14'
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+```
+
+```{r}
+# create table of field goal distance and outcome, enter in glm logistic regression
+# function, use that outputted probability to 'flip coin' to check make
+fb19 <- read.csv('2019 PFF All Plays.csv')
+fb19 <- fb19 %>% mutate(FG_RESULT = case_when(
+  pff_KICKRESULT == 'MADE - IL' ~ 1, 
+  pff_KICKRESULT == 'MADE - M' ~ 1, 
+  pff_KICKRESULT == 'MADE - IR' ~ 1, 
+  pff_KICKRESULT == 'MISSED - WL' ~ 0, 
+  pff_KICKRESULT == 'MISSED - WR' ~ 0, 
+  pff_KICKRESULT == 'MISSED - S' ~ 0, 
+  pff_KICKRESULT == 'MISSED - HL' ~ 0, 
+  pff_KICKRESULT == 'MISSED - HR' ~ 0, 
+  pff_KICKRESULT == 'MISSED - B' ~ 0 
+))
+
+fb19$FIELDPOSITION <- fb19$pff_FIELDPOSITION
+fb19$FIELDPOSITION <- ifelse(fb19$FIELDPOSITION < 0, 
+                             abs(fb19$FIELDPOSITION), 
+                             -(fb19$FIELDPOSITION)+100)
+
+fg2019 <- fb19 %>% filter(!is.na(FG_RESULT), FIELDPOSITION > 50) %>% select(FIELDPOSITION, FG_RESULT)
+```
+
+```{r}
+# Big Project
+
+expoints <- function(down, field_pos, togo, pos) {
+  # print(c(pos, down, togo, field_pos))
+  init_field_pos <- field_pos # set initial field position regardless of play
+  # gained <- floor(rnorm(1, 5, 2))
+  gained <- yards.gained(down, field_pos, togo) # calculate yards gained if played out
+  # print(c('Yards gained: ', gained))
+  field_pos <- init_field_pos + gained # add yards gained if played out
+  # print(c('FIELD POS 1: ', field_pos))
+  
+  if (down != 4) {
+    # print('not fourth down')
+    if (field_pos >= 100) {
+      touchdown(pos)
+    } else if (field_pos <= 0) {
+      safety(pos)
+    } else {
+      first <- first_down(gained, togo)
+      if (first == FALSE) {
+        down <- down + 1
+        togo <- togo - gained
+      } else {
+        down <- 1
+        togo <- ifelse(100 - field_pos < 10, 100 - field_pos, 10)
+      }
+      expoints(down, field_pos, togo, pos)
+    }
+  } else { # meaning it is 4th down
+    # print('fourth down')
+    if (togo > 2) {
+      if (init_field_pos >= 64) {
+        fieldgoal(pos, init_field_pos)
+      } else {
+        punt(pos, init_field_pos)
+      }
+    } else { # 4th and less than 2
+      if (init_field_pos <= 40) {
+        punt(pos, init_field_pos)
+      } else if (field_pos >= 100) {
+        touchdown(pos)
+      } else { # 4th and less than 2 and go for it
+          first <- first_down(gained, togo)
+          # first = gained>=togo
+          if (first == FALSE) {
+            down <- 1
+            field_pos <- 100 - field_pos
+            togo <- ifelse(100 - field_pos < 10, 100 - field_pos, 10)
+            pos <- ifelse(pos == 1, 0, 1)
+            # print("TURNOVER ON DOWNS")
+          } else {
+            down <- 1
+            togo <- ifelse((100 - field_pos) < 10, 100 - field_pos, 10)
+          }
+          expoints(down, field_pos, togo, pos)
+      }
+    }
+  }
+}
+
+first_down <- function(gained, togo) {
+  if (gained >= togo) {
+    # print("FIRST DOWN")
+    return(TRUE)
+  } else {
+    # print("NO FIRST DOWN")
+    return(FALSE)
+  }
+}
+
+touchdown <- function(pos) {
+  return(ifelse(pos == 1, 7, -7))
+  # return(c(ifelse(pos == 1, 7, -7), "TD"))
+}
+
+safety <- function(pos) {
+  return(ifelse(pos == 1, -2, 2))
+  # return(c(ifelse(pos == 1, -2, 2), "SAFETY"))
+}
+
+fieldgoal <- function(pos, init_field_pos) {
+  reg <- glm(fg2019$FG_RESULT ~ fg2019$FIELDPOSITION)
+  fg <- reg$coefficients[[1]] + reg$coefficients[[2]]*init_field_pos
+  # fg <- ifelse(init_field_pos==65, .3, reg$coefficients[[1]] + reg$coefficients[[2]]*init_field_pos)
+  fieldgoalmake = FALSE
+  make <- sample(c(1,0),1,T,c(fg,1-fg))
+  if (make == 1) {fieldgoalmake = TRUE}
+  if (fieldgoalmake == TRUE) { 
+    return(c(ifelse(pos == 1, 3, -3)))
+    # return(c(ifelse(pos == 1, 3, -3), "FG MADE"))
+  } else {
+    # print("FG MISSED")
+    expoints(1, 107 - init_field_pos, 10, ifelse(pos == 1, 0, 1))
+  }
+}
+
+punt <- function(pos, init_field_pos) {
+  if (init_field_pos < 40) {
+    field_pos <- floor(puntsum$PUNTDISTANCE[2]) + init_field_pos
+    if (field_pos >= 100) {
+      field_pos <- 80
+    }
+  }
+  else {
+    field_pos <- floor(puntsum$PUNTDISTANCE[1]) + init_field_pos
+    if (field_pos >= 100) {
+      field_pos <- 80
+    }
+  }
+  # print("PUNT")
+  expoints(1, abs(100 - field_pos), 10, ifelse(pos == 1, 0, 1))
+}
+
+
+
+######## NOT USED #########
+extras <- function() {
+  
+  fieldgoal <- FALSE
+  touchdown <- FALSE
+  safety <- FALSE
+  punt <- FALSE
+  
+  ############################# FIXING TDS
+  print(c('FIELD POS 2: ', field_pos))
+  
+  #if (field_pos >= 100) {touchdown <- TRUE}
+  
+  if (touchdown == TRUE) { ################################## TOUCHDOWNS
+    return(c(ifelse(pos == 1, 7, -7), "TD")) 
+    #return(c(ifelse(pos == 1, 7, -7)))
+  } else if (safety == TRUE) { ############################## SAFETIES
+    return(c(ifelse(pos == 1, -2, 2), "SAFETY"))
+    #return(c(ifelse(pos == 1, -2, 2)))
+  } else if (fieldgoal == TRUE) { ############################ FIELD GOALS
+    reg <- glm(fg2019$FG_RESULT ~ fg2019$FIELDPOSITION)
+    fg <- reg$coefficients[[1]] + reg$coefficients[[2]]*init_field_pos
+    fieldgoalmake = FALSE
+    make <- sample(c(1,0),1,T,c(fg,1-fg))
+    if (make == 1) {fieldgoalmake = TRUE}
+    if (fieldgoalmake == TRUE) { 
+      return(c(ifelse(pos == 1, 3, -3), "FG MADE"))
+      #return(c(ifelse(pos == 1, 3, -3)))
+    } else {
+      print("FG MISSED")
+      expoints(1, 107 - init_field_pos, 10, ifelse(pos == 1, 0, 1))
+    }
+  } else if (punt == TRUE) { ################################ PUNTS
+    if (field_pos < 40) {
+      field_pos <- floor(puntsum$PUNTDISTANCE[2]) + init_field_pos
+      if (field_pos >= 100) {
+        field_pos <- 80
+      }
+    }
+    else {
+      field_pos <- floor(puntsum$PUNTDISTANCE[1]) + init_field_pos
+      if (field_pos >= 100) {
+        field_pos <- 80
+      }
+    }
+    print("PUNT")
+    expoints(1, abs(100 - field_pos), 10, ifelse(pos == 1, 0, 1))
+  } else { ################################################# RETURN CHECK
+    return("get here?")
+  }
+  
+  ###################### WILL NOT PASS THIS POINT
+  
+  score <- check_score(init_field_pos, field_pos, touchdown, safety, fieldgoal, pos, down, togo, punt)
+  ####
+  if(score != "") {
+    return(score)
+  }
+  return('Does it get here??')
+  first <- first_down(gained, togo)
+  if (first == FALSE) {
+    ############
+    if (down == 4) {
+      down <- 1
+      field_pos <- 100 - field_pos
+      togo <- ifelse(100 - field_pos < 10, 100 - field_pos, 10)
+      pos <- ifelse(pos == 1, 0, 1)
+      print("TURNOVER ON DOWNS")
+    } else {
+      down <- down + 1
+      togo <- togo - gained
+    }
+    ############
+  } else {
+    ############
+    down <- 1
+    togo <- ifelse(100 - field_pos < 10, 100 - field_pos, 10)
+    ############
+  }
+
+  expoints(down, field_pos, togo, pos)
+}
+
+kicks <- subset(fb19, select = c(FIELDPOSITION, pff_KICKDEPTH,
+                                         pff_SPECIALTEAMSTYPE))
+punts <- kicks[kicks$pff_SPECIALTEAMSTYPE == "PUNT",]
+punts$puntFP <- ifelse(punts$FIELDPOSITION < 40, "Own", "Mid")
+puntsum <- punts %>% group_by(FIELDPOSITION) %>%
+  summarize(PUNTDISTANCE = mean(pff_KICKDEPTH, na.rm = TRUE))
+
+check_score <- function(init_field_pos, field_pos, touchdown, safety, fieldgoal, pos, down, togo, punt) {
+  if (touchdown == TRUE) { ################################## TOUCHDOWNS
+    return(c(ifelse(pos == 1, 7, -7), "TD")) 
+    #return(c(ifelse(pos == 1, 7, -7)))
+  } else if (safety == TRUE) { ############################## SAFETIES
+    return(c(ifelse(pos == 1, -2, 2), "SAFETY"))
+    #return(c(ifelse(pos == 1, -2, 2)))
+  } else if (fieldgoal == TRUE) { ############################ FIELD GOALS
+    reg <- glm(fg2019$FG_RESULT ~ fg2019$FIELDPOSITION)
+    fg <- reg$coefficients[[1]] + reg$coefficients[[2]]*init_field_pos
+    fieldgoalmake = FALSE
+    make <- sample(c(1,0),1,T,c(fg,1-fg))
+    if (make == 1) {fieldgoalmake = TRUE}
+    if (fieldgoalmake == TRUE) { 
+      return(c(ifelse(pos == 1, 3, -3), "FG MADE"))
+      #return(c(ifelse(pos == 1, 3, -3)))
+    } else {
+      print("FG MISSED")
+      expoints(1, 107 - init_field_pos, 10, ifelse(pos == 1, 0, 1))
+    }
+  } else if (punt == TRUE) { ################################ PUNTS
+    if (field_pos < 40) {
+      field_pos <- floor(puntsum$PUNTDISTANCE[2]) + init_field_pos
+      if (field_pos >= 100) {
+        field_pos <- 80
+      }
+    }
+    else {
+      field_pos <- floor(puntsum$PUNTDISTANCE[1]) + init_field_pos
+      if (field_pos >= 100) {
+        field_pos <- 80
+      }
+    }
+    print("PUNT")
+    expoints(1, abs(100 - field_pos), 10, ifelse(pos == 1, 0, 1))
+  } else { ################################################# RETURN CHECK
+    return("does it get here")
+  }
+}
+```
+
+```{r}
+fb19 <- fb19 %>% mutate(field_part = case_when(
+  FIELDPOSITION <= 40 ~ 'own', 
+  FIELDPOSITION < 65 ~ 'mid', 
+  FIELDPOSITION < 80 ~ 'fgrange', 
+  FIELDPOSITION >= 80 ~ 'redzone'
+))
+```
+
+```{r}
+fb19 <- fb19 %>% mutate(playtype = case_when(
+  pff_PENALTY != '' ~ 'Penalty',
+  pff_SACK != '' ~ 'Sack',
+  pff_RUNPASS == 'P' & pff_DEEPPASS == 1 & pff_INCOMPLETIONTYPE == '' ~ 'DeepPassComplete', 
+  pff_RUNPASS == 'P' & pff_DEEPPASS == 1 ~ 'DeepPassIncomplete', 
+  pff_RUNPASS == 'P' & pff_DEEPPASS == 0 & pff_INCOMPLETIONTYPE == '' ~ 'ShortPassComplete',
+  pff_RUNPASS == 'P' & pff_DEEPPASS == 0 ~ 'ShortPassIncomplete',
+  pff_RUNPASS == 'R' ~ 'Run',
+  pff_RUNPASS == 'X' ~ 'SpecialTeams', 
+  pff_RUNPASS == '' ~ 'Other'))
+```
+
+```{r}
+fb19 %>% group_by(playtype) %>% mutate(avg_yds_gained = round(mean(pff_GAINLOSSNET), 2),
+                                          percentage_of_plays = round(n()/nrow(fb19)*100, 2))
+
+fb19$own40 <- ifelse(fb19$FIELDPOSITION <= 40, 1, 0)
+fb19$own50 <- ifelse(fb19$FIELDPOSITION <= 50, 1, 0)
+
+fb19 %>% filter(playtype == 'Run') %>% group_by(playtype) %>% ggplot(aes(x = pff_GAINLOSSNET)) + geom_density() + 
+  facet_wrap(~playtype, scales = 'free_y')
+
+fb19 %>% filter(pff_SPECIALTEAMSTYPE == 'PUNT') %>% ggplot(aes(x = pff_KICKDEPTH)) + geom_density() + 
+  facet_wrap(~own50, scales = 'free_y')
+```
+
+```{r, warning=FALSE}
+# Yards gained functions
+
+yards.gained <- function(down, fieldpos, togo) {
+  # check run or not
+  run <- run.prob(down, fieldpos, togo)
+  isrun <- sample(c(1,0),1,T,c(run,1-run))
+  if (isrun == 1) {
+    return(run.yds.gained(down,fieldpos, togo))
+  } else {
+    # check if sack of remaining
+    sack_prob <- sack.prob(down, fieldpos, togo)
+    sack <- sack_prob/(1-run)
+    issack <- sample(c(1,0),1,T,c(sack, 1-sack))
+    if (issack == 1) {
+      return(sack.yds.gained(down,fieldpos, togo))
+    } else {
+      sp_prob <- shortpass.prob(down, fieldpos, togo)
+      sp <- sp_prob/(1-run-sack)
+      issp <- sample(c(1,0),1,T,c(sp, 1-sp))
+      if (issp == 1) {
+        return(shortpass.yds.gained(down,fieldpos, togo))
+      } else {
+        dp_prob <- deeppass.prob(down, fieldpos, togo)
+        dp <- dp_prob/(1-run-sack-sp)
+        isdp <- sample(c(1,0),1,T,c(dp, 1-dp))
+        if (isdp == 1) {
+          return(deeppass.yds.gained(down,fieldpos, togo))
+        } else {
+          return(0)
+        }
+      }
+    }
+  }
+}
+
+#expected.yards <- run_prob*run.yds.gained(down, fieldpos, togo) + 
+#  sp_prob*shortpass.yds.gained(down, fieldpos, togo) + 
+#  dp_prob*deeppass.yds.gained(down, fieldpos, togo) + 
+#  sack_prob*sack.yds.gained(down, fieldpos, togo)
+#  return(floor(expected.yards))
+```
+
+```{r}
+big_own <- fb19[fb19$field_part == 'own',]
+big_mid <- fb19[fb19$field_part == 'mid',]
+big_fgrange <- fb19[fb19$field_part == 'fgrange',]
+big_rz <- fb19[fb19$field_part == 'redzone',]
+```
+
+```{r}
+# Run: ~ double exp dist
+# mixture model of positive vs. negative run plays, distribute zeros by same proportions
+
+run_data <- fb19[fb19$playtype == 'Run',]
+
+run_prob <- nrow(run_data)/nrow(fb19)
+run_mean <- mean(run_data[run_data$pff_GAINLOSSNET>0,]$pff_GAINLOSSNET)
+run_negative_mean <- mean(run_data[run_data$pff_GAINLOSSNET<0,]$pff_GAINLOSSNET)
+run_alpha <- 1/run_mean
+run_negative_alpha <- 1/abs(run_negative_mean)
+p_positive <- sum(run_data$pff_GAINLOSSNET>0)/nrow(run_data)
+p_negative <- sum(run_data$pff_GAINLOSSNET<0)/nrow(run_data)
+exp_yds <- ifelse(sample(c(1,0),1,T,c(p_positive,1-p_positive)), floor(rexp(1, run_alpha)), 
+           ifelse(sample(c(1,0),1,T,c(p_negative/(1-p_positive),1-p_negative/(1-p_positive))), -floor(rexp(1, run_negative_alpha)), 0))
+
+run.prob <- function(down, fieldpos, togo) {
+  if (fieldpos <= 40) {
+    return(run_prob_own)
+  } else if (fieldpos < 65) {
+    return(run_prob_mid)
+  } else if (fieldpos < 80) {
+    return(run_prob_fgrange)
+  } else {
+    return(run_prob_rz)
+  }
+}
+
+run.meanfunc <- function(down, fieldpos, togo) {
+  if (fieldpos <= 40) {
+      return(mean(run_own$pff_GAINLOSSNET))
+    } else if (fieldpos < 65) {
+      return(mean(run_mid$pff_GAINLOSSNET))
+    } else if (fieldpos < 80) {
+      return(mean(run_fgrange$pff_GAINLOSSNET))
+    } else {
+      return(mean(run_rz$pff_GAINLOSSNET))
+    }
+}
+
+run.negative.meanfunc <- function(down, fieldpos, togo) {
+  negative <- fb19[fb19[fb19$playtype == 'Run',]$pff_GAINLOSSNET<0,]$pff_GAINLOSSNET
+  return(mean(negative))
+}
+
+run.yds.gained <- function(down, fieldpos, togo) {
+  is_pos <- sample(c(1,0),1,T,c(p_positive, 1-p_positive))
+  if (is_pos == 1) {
+    if (fieldpos <= 40) {
+      return(ceiling(rexp(1, run_alpha)))
+    } else if (fieldpos < 65) {
+      return(ceiling(rexp(1, run_alpha)))
+    } else if (fieldpos < 80) {
+      return(ceiling(rexp(1, run_alpha)))
+    } else {
+      return(ceiling(rexp(1, run_alpha)))
+    }
+  } else {
+    neg <- p_negative/(1-p_positive)
+    is_neg <- sample(c(1,0),1,T,c(neg, 1-neg))
+    if (is_neg == 1) {
+      if (fieldpos <= 40) {
+        return(-floor(rexp(1, run_negative_alpha)))
+      } else if (fieldpos < 65) {
+        return(-floor(rexp(1, run_negative_alpha)))
+      } else if (fieldpos < 80) {
+        return(-floor(rexp(1, run_negative_alpha)))
+      } else {
+        return(-floor(rexp(1, run_negative_alpha)))
+      }
+    }
+    return(0)
+  }
+}
+
+# own
+run_own <- run_data[run_data$field_part == 'own',]
+run_prob_own <- nrow(run_own)/nrow(big_own)
+run_mean_own <- run.meanfunc(down, 10, togo)
+run_negative_mean_own <- run.negative.meanfunc(down, 10, togo)
+run_alpha_own <- 1/run_mean_own
+run_negative_alpha_own <- 1/abs(run_negative_mean_own)
+p_positive_own <- sum(run_own$pff_GAINLOSSNET>0)/nrow(run_own)
+p_negative_own <- sum(run_own$pff_GAINLOSSNET<0)/nrow(run_own)
+
+# mid
+run_mid <- run_data[run_data$field_part == 'mid',]
+run_prob_mid <- nrow(run_mid)/nrow(big_mid)
+run_mean_mid <- run.meanfunc(down, 50, togo)
+run_negative_mean_mid <- run.negative.meanfunc(down, 50, togo)
+run_alpha_mid <- 1/run_mean_mid
+run_negative_alpha_mid <- 1/abs(run_negative_mean_mid)
+p_positive_mid <- sum(run_mid$pff_GAINLOSSNET>0)/nrow(run_mid)
+p_negative_mid <- sum(run_mid$pff_GAINLOSSNET<0)/nrow(run_mid)
+
+# fgrange
+run_fgrange <- run_data[run_data$field_part == 'fgrange',]
+run_prob_fgrange <- nrow(run_fgrange)/nrow(big_fgrange)
+run_mean_fgrange <- run.meanfunc(down, 70, togo)
+run_negative_mean_fgrange <- run.negative.meanfunc(down, 70, togo)
+run_alpha_fgrange <- 1/run_mean_fgrange
+run_negative_alpha_fgrange <- 1/abs(run_negative_mean_fgrange)
+p_positive_fgrange <- sum(run_fgrange$pff_GAINLOSSNET>0)/nrow(run_fgrange)
+p_negative_fgrange <- sum(run_fgrange$pff_GAINLOSSNET<0)/nrow(run_fgrange)
+
+# rz
+run_rz <- run_data[run_data$field_part == 'redzone',]
+run_prob_rz <- nrow(run_rz)/nrow(big_rz)
+run_mean_rz <- run.meanfunc(down, 90, togo)
+run_negative_mean_rz <- run.negative.meanfunc(down, 90, togo)
+run_alpha_rz <- 1/run_mean_rz
+run_negative_alpha_rz <- 1/abs(run_negative_mean_rz)
+p_positive_rz <- sum(run_rz$pff_GAINLOSSNET>0)/nrow(run_rz)
+p_negative_rz <- sum(run_rz$pff_GAINLOSSNET<0)/nrow(run_rz)
+
+plot(seq(0,20,.1), dexp(seq(0,20,.1),run_alpha), ylim = c(0,.2))
+plot(seq(0,20,.1), dexp(seq(0,20,.1),run_negative_alpha), ylim = c(0,.5))
+```
+
+```{r}
+# Short pass: ~ N dist
+
+sp_data <- fb19[fb19$playtype == 'ShortPassComplete',]
+
+shortpass.prob <- function(down, fieldpos, togo) {
+  if (fieldpos <= 40) {
+    return(sp_prob_own)
+  } else if (fieldpos < 65) {
+    return(sp_prob_mid)
+  } else if (fieldpos < 80) {
+    return(sp_prob_fgrange)
+  } else {
+    return(sp_prob_rz)
+  }
+}
+
+shortpass.meanfunc <- function(down, fieldpos, togo) {
+  if (fieldpos <= 40) {
+      return(mean(sp_data[sp_data$field_part == 'own',]$pff_GAINLOSSNET))
+    } else if (fieldpos < 65) {
+      return(mean(sp_data[sp_data$field_part == 'mid',]$pff_GAINLOSSNET))
+    } else if (fieldpos < 80) {
+      return(mean(sp_data[sp_data$field_part == 'fgrange',]$pff_GAINLOSSNET))
+    } else {
+      return(mean(sp_data[sp_data$field_part == 'redzone',]$pff_GAINLOSSNET))
+    }
+}
+shortpass.sdfunc <- function(down, fieldpos, togo) {
+  if (fieldpos <= 40) {
+      return(sd(sp_data[sp_data$field_part == 'own',]$pff_GAINLOSSNET))
+    } else if (fieldpos < 65) {
+      return(sd(sp_data[sp_data$field_part == 'mid',]$pff_GAINLOSSNET))
+    } else if (fieldpos < 80) {
+      return(sd(sp_data[sp_data$field_part == 'fgrange',]$pff_GAINLOSSNET))
+    } else {
+      return(sd(sp_data[sp_data$field_part == 'redzone',]$pff_GAINLOSSNET))
+    }
+}
+
+shortpass.yds.gained <- function(down, fieldpos, togo) {
+  if (fieldpos <= 40) {
+    return(floor(rnorm(1, sp_mean_own, sp_sd_own)))
+  } else if (fieldpos < 65) {
+    return(floor(rnorm(1, sp_mean_mid, sp_sd_mid)))
+  } else if (fieldpos < 80) {
+    return(floor(rnorm(1, sp_mean_fgrange, sp_sd_fgrange)))
+  } else {
+    return(floor(rnorm(1, sp_mean_rz, sp_sd_rz)))
+  }
+}
+
+# own
+sp_own <- sp_data[sp_data$field_part == 'own',]
+sp_prob_own <- nrow(sp_own)/nrow(big_own)
+sp_mean_own <- shortpass.meanfunc(down, 10, togo)
+sp_sd_own <- shortpass.sdfunc(down, 10, togo)
+
+# mid
+sp_mid <- sp_data[sp_data$field_part == 'mid',]
+sp_prob_mid <- nrow(sp_mid)/nrow(big_mid)
+sp_mean_mid <- shortpass.meanfunc(down, 50, togo)
+sp_sd_mid <- shortpass.sdfunc(down, 50, togo)
+
+# fgrange
+sp_fgrange <- sp_data[sp_data$field_part == 'fgrange',]
+sp_prob_fgrange <- nrow(sp_fgrange)/nrow(big_fgrange)
+sp_mean_fgrange <- shortpass.meanfunc(down, 70, togo)
+sp_sd_fgrange <- shortpass.sdfunc(down, 70, togo)
+
+# redzone
+sp_rz <- sp_data[sp_data$field_part == 'redzone',]
+sp_prob_rz <- nrow(sp_rz)/nrow(big_rz)
+sp_mean_rz <- shortpass.meanfunc(down, 90, togo)
+sp_sd_rz <- shortpass.sdfunc(down, 90, togo)
+
+# change distributions
+plot(seq(0,20,.1), dnorm(seq(0,20,.1),sp_mean_own,sp_sd_own), main = 'Own Side', ylim = c(0,.1))
+plot(seq(0,20,.1), dnorm(seq(0,20,.1),sp_mean_mid,sp_sd_mid), main = 'Around midfield', ylim = c(0,.1))
+plot(seq(0,20,.1), dnorm(seq(0,20,.1),sp_mean_fgrange,sp_sd_fgrange), main = 'FG range', ylim = c(0,.1))
+plot(seq(0,20,.1), dnorm(seq(0,20,.1),sp_mean_rz,sp_sd_rz), main = 'Red zone', ylim = c(0,.1))
+```
+
+```{r}
+# Deep pass: ~ gamma dist
+
+dp_data <- fb19[fb19$playtype == 'DeepPassComplete',]
+
+deeppass.prob <- function(down, fieldpos, togo) {
+  if (fieldpos <= 40) {
+    return(dp_prob_own)
+  } else if (fieldpos < 65) {
+    return(dp_prob_mid)
+  } else if (fieldpos < 80) {
+    return(dp_prob_fgrange)
+  } else {
+    return(dp_prob_rz)
+  }
+}
+
+deeppass.meanfunc <- function(down, fieldpos, togo) {
+  if (fieldpos <= 40) {
+      return(mean(dp_data[dp_data$field_part == 'own',]$pff_GAINLOSSNET))
+    } else if (fieldpos < 65) {
+      return(mean(dp_data[dp_data$field_part == 'mid',]$pff_GAINLOSSNET))
+    } else if (fieldpos < 80) {
+      return(mean(dp_data[dp_data$field_part == 'fgrange',]$pff_GAINLOSSNET))
+    } else {
+      return(mean(dp_data[dp_data$field_part == 'redzone',]$pff_GAINLOSSNET))
+    }
+}
+deeppass.sdfunc <- function(down, fieldpos, togo) {
+  return(sqrt(var(fb19[fb19$playtype == 'DeepPassComplete',]$pff_GAINLOSSNET)))
+}
+deeppass.yds.gained <- function(down, fieldpos, togo) {
+  if (fieldpos <= 40) {
+    return(floor(rgamma(1, dp_alpha_own, dp_beta_own)))
+  } else if (fieldpos < 65) {
+    return(floor(rgamma(1, dp_alpha_mid, dp_beta_mid)))
+  } else if (fieldpos < 80) {
+    return(floor(rgamma(1, dp_alpha_fgrange, dp_beta_fgrange)))
+  } else {
+    return(floor(rgamma(1, dp_alpha_rz, dp_beta_rz)))
+  }
+}
+
+# own
+dp_own <- dp_data[dp_data$field_part == 'own',]
+dp_prob_own <- nrow(dp_own)/nrow(big_own)
+dp_mean_own <- deeppass.meanfunc(down, 10, togo)
+dp_sd_own <- deeppass.sdfunc(down, 10, togo)
+dp_alpha_own <- dp_mean_own^2/dp_sd_own^2
+dp_beta_own <- dp_mean_own/dp_sd_own^2
+
+# mid
+dp_mid <- dp_data[dp_data$field_part == 'mid',]
+dp_prob_mid <- nrow(dp_mid)/nrow(big_mid)
+dp_mean_mid <- deeppass.meanfunc(down, 50, togo)
+dp_sd_mid <- deeppass.sdfunc(down, 50, togo)
+dp_alpha_mid <- dp_mean_mid^2/dp_sd_mid^2
+dp_beta_mid <- dp_mean_mid/dp_sd_mid^2
+
+# fgrange
+dp_fgrange <- dp_data[dp_data$field_part == 'fgrange',]
+dp_prob_fgrange <- nrow(dp_fgrange)/nrow(big_fgrange)
+dp_mean_fgrange <- deeppass.meanfunc(down, 70, togo)
+dp_sd_fgrange <- deeppass.sdfunc(down, 70, togo)
+dp_alpha_fgrange <- dp_mean_fgrange^2/dp_sd_fgrange^2
+dp_beta_fgrange <- dp_mean_fgrange/dp_sd_fgrange^2
+
+# redzone
+dp_rz <- dp_data[dp_data$field_part == 'redzone',]
+dp_prob_rz <- nrow(dp_rz)/nrow(big_rz)
+dp_mean_rz <- deeppass.meanfunc(down, 90, togo)
+dp_sd_rz <- deeppass.sdfunc(down, 90, togo)
+dp_alpha_rz <- dp_mean_rz^2/dp_sd_rz^2
+dp_beta_rz <- dp_mean_rz/dp_sd_mid^2
+
+# change distributions
+plot(seq(0,50,.1), dgamma(seq(0,50,.1),dp_alpha_own,dp_beta_own), main = 'Own Side', ylim = c(0,.05))
+plot(seq(0,50,.1), dgamma(seq(0,50,.1),dp_alpha_mid,dp_beta_mid), main = 'Around midfield', ylim = c(0,.05))
+plot(seq(0,50,.1), dgamma(seq(0,50,.1),dp_alpha_fgrange,dp_beta_fgrange), main = 'FG range', ylim = c(0,.05))
+plot(seq(0,50,.1), dgamma(seq(0,50,.1),dp_alpha_rz,dp_beta_rz), main = 'Red zone', ylim = c(0,.05))
+```
+
+```{r}
+# Sack: ~ negative exp dist
+
+sack_data <- fb19[fb19$playtype == 'Sack',]
+
+sack.prob <- function(down, fieldpos, togo) {
+  if (fieldpos <= 40) {
+    return(sack_prob_own)
+  } else if (fieldpos < 65) {
+    return(sack_prob_mid)
+  } else if (fieldpos < 80) {
+    return(sack_prob_fgrange)
+  } else {
+    return(sack_prob_rz)
+  }
+}
+
+sack.meanfunc <- function(down, fieldpos, togo) {
+  if (fieldpos <= 40) {
+    return(mean(sack_data[sack_data$field_part == 'own',]$pff_GAINLOSSNET))
+  } else if (fieldpos < 65) {
+    return(mean(sack_data[sack_data$field_part == 'mid',]$pff_GAINLOSSNET))
+  } else if (fieldpos < 80) {
+    return(mean(sack_data[sack_data$field_part == 'fgrange',]$pff_GAINLOSSNET))
+  } else {
+    return(mean(sack_data[sack_data$field_part == 'redzone',]$pff_GAINLOSSNET))
+  }
+}
+sack.sdfunc <- function(down, fieldpos, togo) {
+  return(sqrt(var(fb19[fb19$playtype == 'Sack',]$pff_GAINLOSSNET)))
+}
+
+sack.yds.gained <- function(down, fieldpos, togo) {
+  if (fieldpos <= 40) {
+    return(-floor(rexp(1, sack_alpha_own)))
+  } else if (fieldpos < 65) {
+    return(-floor(rexp(1, sack_alpha_mid)))
+  } else if (fieldpos < 80) {
+    return(-floor(rexp(1, sack_alpha_fgrange)))
+  } else {
+    return(-floor(rexp(1, sack_alpha_rz)))
+  }
+}
+
+# own
+sack_own <- sack_data[sack_data$field_part == 'own',]
+sack_prob_own <- nrow(sack_own)/nrow(big_own)
+sack_mean_own <- sack.meanfunc(down, 10, togo)
+sack_sd_own <- sack.sdfunc(down, 10, togo)
+sack_alpha_own <- abs(1/sack_mean_own)
+
+# mid
+sack_mid <- sack_data[sack_data$field_part == 'mid',]
+sack_prob_mid <- nrow(sack_mid)/nrow(big_mid)
+sack_mean_mid <- sack.meanfunc(down, 50, togo)
+sack_sd_mid <- sack.sdfunc(down, 50, togo)
+sack_alpha_mid <- abs(1/sack_mean_mid)
+
+# fgrange
+sack_fgrange <- sack_data[sack_data$field_part == 'fgrange',]
+sack_prob_fgrange <- nrow(sack_fgrange)/nrow(big_fgrange)
+sack_mean_fgrange <- sack.meanfunc(down, 70, togo)
+sack_sd_fgrange <- sack.sdfunc(down, 70, togo)
+sack_alpha_fgrange <- abs(1/sack_mean_fgrange)
+
+# redzone
+sack_rz <- sack_data[sack_data$field_part == 'redzone',]
+sack_prob_rz <- nrow(sack_rz)/nrow(big_rz)
+sack_mean_rz <- sack.meanfunc(down, 90, togo)
+sack_sd_rz <- sack.sdfunc(down, 90, togo)
+sack_alpha_rz <- abs(1/sack_mean_rz)
+
+sack_z_own <- plot(seq(0,20,.1), dexp(seq(0,20,.1),sack_alpha_own), main = 'Own Side', ylim = c(0,.2))
+sack_z_mid <- plot(seq(0,20,.1), dexp(seq(0,20,.1),sack_alpha_mid), main = 'Around midfield', ylim = c(0,.2))
+sack_z_fgrange <- plot(seq(0,20,.1), dexp(seq(0,20,.1),sack_alpha_fgrange), main = 'FG range', ylim = c(0,.2))
+sack_z_rz <- plot(seq(0,20,.1), dexp(seq(0,20,.1),sack_alpha_rz), main = 'Red zone', ylim = c(0,.2))
+```
+
+```{r, warning=FALSE}
+# Test Runs
+
+# code runs
+exp_4_10_64_actual_fg <- mean(replicate(100,expoints(4,64,10,1)))
+exp_4_10_64_40p_fg <- mean(replicate(10000,expoints(4,64,10,1)))
+exp_4_10_64_30p_punt <- mean(replicate(10000,expoints(4,64,10,1)))
+exp_4_10_64_25p_punt <- mean(replicate(10000,expoints(4,64,10,1)))
+exp_4_10_64_20p_punt <- mean(replicate(10000,expoints(4,64,10,1)))
+exp_4_10_64_15p_punt <- mean(replicate(10000,expoints(4,64,10,1)))
+exp_4_10_64_10p_punt <- mean(replicate(10000,expoints(4,64,10,1)))
+exp_4_10_64_5p_punt <- mean(replicate(10000,expoints(4,64,10,1)))
+
+# outputs
+exp_1_10_50
+exp_1_10_25
+exp_1_10_75
+exp_1_5_95
+exp_4_10_25
+
+# 47.4% chance of making 53 yard field goal from college dataset (using regression)
+exp_4_10_64_actual_fg # 0.2003
+exp_4_10_64_actual_punt # -0.4339
+
+exp_4_10_64_40p_fg # 0.035 (testing other way: -.1918)
+exp_4_10_64_40p_punt # -0.3349
+
+exp_4_10_64_38p_fg # (testing other way: -.3334)
+exp_4_10_64_38p_punt # (testing other way: -.3459)
+
+exp_4_10_64_35p_fg # (testing other way: -.4591)
+exp_4_10_64_35p_punt # (testing other way: -.3191)
+exp_4_10_64_38p_goforit # can't measure this right now
+
+exp_4_10_64_33p_fg # (testing other way: -.5292)
+exp_4_10_64_33p_punt # (testing other way: -.2873)
+
+exp_4_10_64_30p_fg # -0.3192 (testing other way: -.7173)
+exp_4_10_64_30p_punt # -0.2767 (testing other way: -.3100)
+
+exp_4_10_64_25p_fg # -0.5618
+exp_4_10_64_25p_punt # -0.3808
+
+exp_4_10_64_20p_fg # -0.7977
+exp_4_10_64_20p_punt # -0.2473
+
+exp_4_10_64_15p_fg # -1.0503
+exp_4_10_64_15p_punt # -0.3529
+
+exp_4_10_64_10p_fg # -1.0938
+exp_4_10_64_10p_punt # -0.2866
+
+exp_4_10_64_5p_fg # -1.4778
+exp_4_10_64_5p_punt # -0.2375
+
+
+
+###################3
+
+
+
+reg$coefficients[[1]] + reg$coefficients[[2]]*64
+fg2019 %>% group_by(FIELDPOSITION) %>% summarize(makes = sum(FG_RESULT), attempts = n())
+# ADD
+# model for punt distances
+# interceptions and fumbles
+# extra points and 2-pt conversions
+# yards conditioned on down/ytg
+# final write-up
+```
+
+```{r}
+#x1 <- seq(1,99)
+#y1 <- c(mean(replicate(100,expoints(4,0,10,1))),mean(replicate(100,expoints(4,10,10,1))),
+#                      mean(replicate(100,expoints(4,20,10,1))),mean(replicate(100,expoints(4,30,10,1))),
+#                      mean(replicate(100,expoints(4,40,10,1))),mean(replicate(100,expoints(4,50,10,1))),
+#                      mean(replicate(100,expoints(4,60,10,1))),mean(replicate(100,expoints(4,70,10,1))),
+#                      mean(replicate(100,expoints(4,80,10,1))),mean(replicate(100,expoints(4,90,10,1))))
+
+# first and 10
+x1 <- seq(1,99)
+y1 <- c()
+for (x in seq(1,99)) {
+  y1 <- c(y1,mean(replicate(100,expoints(1,x,10,1))))
+}
+
+for (x in seq(1,99)) {
+  runEP <- mean(replicate(100,expoints(1,x,10,1)))
+  if (runEP < 0) {
+    y1 <- c(y1,0)
+  } else {
+    y1 <- c(y1,runEP)
+  }
+}
+
+lo1 <- loess(y1~x1)
+plot(x1, y1)
+plot(x1,predict(lo1), main = "Expected points on 1st and 10 in college football", 
+     xlab = "Yardline", ylab = "Expected points")
+
+# fourth and 10
+x4 <- seq(1,99)
+y4 <- c()
+for (x in seq(1,99)) {
+  y4 <- c(y4,mean(replicate(100,expoints(4,x,10,1))))
+}
+
+for (x in seq(1,99)) {
+  runEP <- mean(replicate(100,expoints(4,x,10,1)))
+  if (runEP < 0) {
+    y4 <- c(y4,0)
+  } else {
+    y4 <- c(y4,runEP)
+  }
+}
+
+lo4 <- loess(y4~x4)
+plot(x1, y1)
+plot(x1,predict(lo4), main = "Expected points on 4th and 10 in college football", 
+     xlab = "Yardline", ylab = "Expected points", ylim = c(-1,4))
+```
+
+
