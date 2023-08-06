@@ -12,7 +12,10 @@ library(tidyverse)
 ```{r}
 # create table of field goal distance and outcome, enter in glm logistic regression
 # function, use that outputted probability to 'flip coin' to check make
-fb19 <- read.csv('2019 PFF All Plays.csv')
+fb19 <- read.csv('/Users/tylergorecki/Desktop/Past UVA Semesters/2022 FALL/STAT 4800/2019 PFF All Plays.csv')
+
+head(fb19, 1000)
+
 fb19 <- fb19 %>% mutate(FG_RESULT = case_when(
   pff_KICKRESULT == 'MADE - IL' ~ 1, 
   pff_KICKRESULT == 'MADE - M' ~ 1, 
