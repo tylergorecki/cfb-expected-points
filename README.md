@@ -8,7 +8,7 @@ Understanding expected points at different field positions allows teams to make 
 
 ## Key Features
 - **Recursive Simulation**: Simulates play sequences to estimate expected points across various field positions and game scenarios.
-- **Bayesian Modeling**: Utilizes Bayesian methods to sample yardage gains and uncertainties, enriching the predictive power of the model.
+- **Bayesian Modeling**: Utilizes semi-Bayesian methodology by sampling yardage gains and uncertainties, enriching the predictive power of the model.
 - **Logistic Regression for Field Goals**: Provides insight into field goal success probabilities to aid in decision-making between punting, kicking, or advancing the ball.
 
 ## Technologies Used
