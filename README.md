@@ -1,6 +1,4 @@
-# College Football Expected Points Project
-
-# 🏈 College Football Expected Points Model
+# College Football Expected Points Model
 
 ## Overview
 This repository contains an advanced statistical model for predicting expected points in college football, providing valuable insights into play-by-play game situations. By leveraging recursive modeling and Bayesian statistical methods, the project helps evaluate strategic decisions and optimize coaching tactics. I used college football play-by-play data from 2019. 
@@ -10,7 +8,7 @@ Understanding expected points at different field positions allows teams to make 
 
 ## Key Features
 - **Recursive Simulation**: Simulates play sequences to estimate expected points across various field positions and game scenarios.
-- **Bayesian Modeling**: Utilizes Bayesian methods to model yardage gains and uncertainties, enriching the predictive power of the model.
+- **Bayesian Modeling**: Utilizes Bayesian methods to sample yardage gains and uncertainties, enriching the predictive power of the model.
 - **Logistic Regression for Field Goals**: Provides insight into field goal success probabilities to aid in decision-making between punting, kicking, or advancing the ball.
 
 ## Technologies Used
@@ -23,7 +21,7 @@ Understanding expected points at different field positions allows teams to make 
   - Logistic regression
   - Recursive modeling
 
-## Methods used
+## Further details on methods and improvements
 - *Logistic regression*: Created a glm logistic model using past kick distance and outcomes to simulate kick success probability from coin flip sampling. The probability of success was generated from the linear model with field position as the input.
 
 - *Recursive play simulation (main function)*: Considering different scenarios based on field position, down, distance, etc., I calculated the expected points from that given position by recursively adjusting the game state until a scoring event occurred by either team. Later, I would use this to simulate many observations from the same situation and average the points scored (negative for opponent score) to get the expected points.
