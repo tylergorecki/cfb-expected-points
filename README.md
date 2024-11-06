@@ -1,6 +1,27 @@
 # College Football Expected Points Project
 
-Used college football play-by-play data from 2019 to create a function that predicts the number of expected points based on field position, down, and yards to go. The pdf is a paper we wrote for our class (STAT 4800: Advanced Sports Analytics) answering the question of when, in college football, it is better to punt as opposed to going for it on 4th down. This was done in R. 
+# 🏈 College Football Expected Points Model
+
+## Overview
+This repository contains an advanced statistical model for predicting expected points in college football, providing valuable insights into play-by-play game situations. By leveraging recursive modeling and Bayesian statistical methods, the project helps evaluate strategic decisions and optimize coaching tactics. I used college football play-by-play data from 2019. 
+
+## Motivation
+Understanding expected points at different field positions allows teams to make data-driven decisions that can significantly impact game outcomes. This model assists in analyzing the trade-offs between various play calls—such as going for a field goal versus a punt—and supports more informed coaching strategies.
+
+## Key Features
+- **Recursive Simulation**: Simulates play sequences to estimate expected points across various field positions and game scenarios.
+- **Bayesian Modeling**: Utilizes Bayesian methods to model yardage gains and uncertainties, enriching the predictive power of the model.
+- **Logistic Regression for Field Goals**: Provides insight into field goal success probabilities to aid in decision-making between punting, kicking, or advancing the ball.
+
+## Technologies Used
+- **Programming Language**: R
+- **Libraries**:
+  - `tidyverse` for data manipulation and visualization
+  - `ggplot2` for data visualization
+- **Statistical Techniques**:
+  - Bayesian sampling
+  - Logistic regression
+  - Recursive modeling
 
 ## Methods used
 - *Logistic regression*: Created a glm logistic model using past kick distance and outcomes to simulate kick success probability from coin flip sampling. The probability of success was generated from the linear model with field position as the input.
