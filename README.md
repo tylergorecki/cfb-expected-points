@@ -1,13 +1,13 @@
 # College Football Expected Points Model
 
 ## Overview
-This repository contains an advanced statistical model for predicting expected points in college football, providing valuable insights into play-by-play game situations. By leveraging Markov Chain Monte Carlo simulations and Bayesian statistical methods, the project helps evaluate strategic decisions and optimize coaching tactics. I used college football play-by-play data from 2019. 
+This repository contains an advanced statistical model for predicting expected points in college football, providing valuable insights into play-by-play game situations. By leveraging recursive simulations and Bayesian statistical methods, the project helps evaluate strategic decisions and optimize coaching tactics. I used college football play-by-play data from 2019. 
 
 ## Motivation
 Understanding expected points at different field positions allows teams to make data-driven decisions that can significantly impact game outcomes. This model assists in analyzing the trade-offs between various play calls—such as going for a field goal versus a punt—and supports more informed coaching strategies.
 
 ## Key Features
-- **Monte Carlo Simulation**: Simulates play sequences to estimate expected points across various field positions and game scenarios.
+- **Recursive Simulation**: Simulates play sequences to estimate expected points across various field positions and game scenarios.
 - **Bayesian Modeling**: Utilizes semi-Bayesian methodology by sampling yardage gains and uncertainties, enriching the predictive power of the model.
 - **Logistic Regression for Field Goals**: Provides insight into field goal success probabilities to aid in decision-making between punting, kicking, or advancing the ball.
 
@@ -19,12 +19,12 @@ Understanding expected points at different field positions allows teams to make 
 - **Statistical Techniques**:
   - Bayesian sampling
   - Logistic regression
-  - Recursive Markov Chain Monte Carlo modeling
+  - Recursive modeling
 
 ## Further details on methods and improvements
 - *Logistic regression*: Created a glm logistic model using past kick distance and outcomes to simulate kick success probability from coin flip sampling. The probability of success was generated from the linear model with field position as the input.
 
-- *Monte Carlo play simulation (main function)*: Considering different scenarios based on field position, down, distance, etc., I calculated the expected points from that given position by recursively adjusting the game state until a scoring event occurred by either team. Later, I would use this to simulate many observations from the same situation and average the points scored (negative for opponent score) to get the expected points.
+- *Recursive play simulation (main function)*: Considering different scenarios based on field position, down, distance, etc., I calculated the expected points from that given position by recursively adjusting the game state until a scoring event occurred by either team. Later, I would use this to simulate many observations from the same situation and average the points scored (negative for opponent score) to get the expected points.
 
 - *Matching statistical distributions to play type outcomes*: For non-special teams plays, I categorized possible results into run, sack, short pass, and deep pass. For each of these, I plotted the distribution of resulting yards and mapped each to a corresponding distribution. The yards outcome for each was tweaked slightly depending on where they were on the field (own side, near midfield, field goal range, red zone)
   - Run: mixture model of two exponential distributions - one for negative runs and one for positive runs (sampled probability of positive/negative outcome before analyzing actual yards gained)
